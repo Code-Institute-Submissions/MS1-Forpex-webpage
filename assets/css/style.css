@@ -1,0 +1,52 @@
+body {
+  background-image: url("/assets/images/Background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  background-size: cover;
+}
+
+
+header {
+    margin: 0;
+} 
+
+.nav-bar {
+    background-color: rgba(30, 45, 59, 1);
+    height: 120px;
+    position: relative;
+    top: 0px;
+}
+
+
+.logo {
+    min-height: 120px;
+    max-height: 130px;
+    background: url("../images/logo\ FORPEX\ WHITE\ NEW1\ copy.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 30px 0;
+}
+
+
+.main-hl p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: right;
+    text-transform: uppercase;
+    word-spacing: 100vw;
+    margin-right: 20%;
+    margin-top: 10%;
+}
+
+.main-hl a i{
+    font-size: 80px;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 49%;
+   
+
+}
