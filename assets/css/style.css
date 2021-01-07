@@ -20,15 +20,29 @@ header {
 
 
 .logo {
-    min-height: 120px;
-    max-height: 130px;
-    background: url("../images/logo\ FORPEX\ WHITE\ NEW1\ copy.png");
+    background: url("../images/logo\ FORPEX\ grayish\ small.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    padding: 30px 0;
+    background-size: contain;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 0%;
+
 }
 
+.menu-container {
+    font-size: 0;
+}
+
+#nav li a {
+    font-family: "Montserrat", sans-serif;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fafafa;
+    font-size: 20px;
+    padding: 0;
+}
 
 .main-hl p {
     font-family: "Montserrat", sans-serif;
