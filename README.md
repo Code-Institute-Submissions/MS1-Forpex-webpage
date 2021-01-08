@@ -43,3 +43,6 @@ We continually tweak and adjust this template to help give you the best experien
 --------
 
 Happy coding!
+
+
+https://www.countryflags.com/ - czech and english icon (language switch button)

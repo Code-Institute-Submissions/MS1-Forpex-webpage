@@ -4,6 +4,7 @@ body {
   background-attachment: fixed;
   height: 100%;
   background-size: cover;
+  margin: 0;
 }
 
 
@@ -14,8 +15,9 @@ header {
 .nav-bar {
     background-color: rgba(30, 45, 59, 1);
     height: 120px;
-    position: relative;
+    width: 100%;
     top: 0px;
+    position: fixed;
 }
 
 
@@ -24,34 +26,75 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    margin: 15px;
-    margin-left: 20px;
-    padding: 0%;
-   
+    height: 70%;
+    line-height: 120px;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
 
+  
 }
+
 
 .menu-container {
     font-size: 0;
 }
 
+#nav {
+   line-height: 120px;    
+   
+}
+
+
+
+#nav li a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    text-decoration: none;
+    color: #fafafa;
+    margin: 0;    
+}
+
+.czech {
+    background: url("../images/czech-republic-flag-round-icon-128.png");
+    min-width: 30px;
+    min-height: 30px;
+    background-position: center;
+    background-size: contain;
+}
+
+
+span {
+    line-height: 25px;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
+
+
 .main-hl p {
     font-family: "Montserrat", sans-serif;
     font-size: 60px;
     font-weight: 300;
-    color: #000000;
+    color: #fafafa;
     text-align: right;
     text-transform: uppercase;
     word-spacing: 100vw;
     margin-right: 20%;
-    margin-top: 10%;
+    margin-top: 20%;
 }
 
 .main-hl a i{
     font-size: 80px;
-    color: hsl(0, 35%, 31%);
+    color: #fafafa;
     text-align: center;
     margin-left: 49%;
-   
+}
 
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0;
 }
