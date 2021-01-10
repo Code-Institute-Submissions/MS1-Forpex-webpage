@@ -102,9 +102,7 @@ dl, ol, ul {
 
 /* ---------------------------------------------------ABOUT US------------*/
 
-#about-us {
-    height: 1120px;
-}
+
 
 .empty-bar {
     height: 120px;
@@ -116,9 +114,9 @@ dl, ol, ul {
 
 .about-us-text-margin {
     margin-left: 4%;
-    margin-top: 80px;
+    margin-top: 70px;
     margin-right: 30%;
-    margin-bottom: 30%;
+    margin-bottom: 10%;
     font-family: "Montserrat", sans-serif;
     color: #5a5a5a;
 }
@@ -152,7 +150,100 @@ dl, ol, ul {
     min-height: 550px;
     margin-left: 30%;
     margin-right: 4%;
-    margin-top: 80px;    
+    margin-top: 50px;    
+}
+
+/* ---------------------------------------------------PRINTING SOLUTIONS------------*/
+
+#printing-solutions {
+    height: 1120px;
+}
+
+
+.three-solutions {
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.three-solutions h1 {
+    font-family: "Montserrat", sans-serif;
+    color: #fafafa;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+    font-weight: 350;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.three-solutions .bar-under {
+    background-color: rgb(237, 205, 31);
+    height: 10px;
+    width: 40%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.three-solutions-column {
+    background-color: #fafafa;
+    text-align: center;
+    margin: 10px 6px;
+}
+
+.textile-picture {
+    width: 100%;
+    height: 250px;
+    background: url("/assets/images/Depositphotos_192275738_xl-2015small.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.paper-picture {
+    width: 100%;
+    height: 250px;
+    background: url("/assets/images/paper\ print\ smaller.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.other-picture {
+    width: 100%;
+    height: 250px;
+    background: url("/assets/images/Objects\ print\ -\ small.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.three-solutions-column h2 {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin-top: 25px;
+    
+    
+    font-weight: 500;
+    color: #5a5a5a;
+    font-size: 25px;
+}
+
+.three-solutions-column li {
+    font-family: "Montserrat", sans-serif;
+    text-align: left;
+    margin: 15px 15px;
+    font-weight: 400;
+    color: #5a5a5a;
+    font-size: 15px;
+}
+
+.three-solutions-column .bar-under {
+    margin-bottom: 20px;
+    height: 7px;
+    margin-top: 20px;
 }
 
 /* ---------------------------------------------------FOOTER------------*/
