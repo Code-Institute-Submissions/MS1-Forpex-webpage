@@ -21,7 +21,6 @@ header {
     position: fixed;
 }
 
-
 .logo {
     background: url("../images/logo\ FORPEX\ grayish\ small.png");
     background-repeat: no-repeat;
@@ -30,10 +29,7 @@ header {
     height: 70%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
-
-  
 }
-
 
 .menu-container {
     font-size: 0;
@@ -95,7 +91,7 @@ span {
     font-size: 80px;
     color: #fafafa;
     text-align: center;
-    margin-left: 49%;
+    margin-left: 48%;
     margin-bottom: 10%;
 }
 
@@ -119,8 +115,8 @@ dl, ol, ul {
 }
 
 .about-us-text-margin {
-    margin-left: 10%;
-    margin-top: 50px;
+    margin-left: 4%;
+    margin-top: 80px;
     margin-right: 30%;
     margin-bottom: 30%;
     font-family: "Montserrat", sans-serif;
@@ -142,18 +138,37 @@ dl, ol, ul {
     height: 10px;
     width: 50%;
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .about-us-text, .about-us-picture {
     float: left;
 }
 
-.about-us-picture {
+.about-us-picture-margin {
     background: url("../images/Depositphotos_1594482_xl-2015.jpg");
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    min-height: 550px;
+    margin-left: 30%;
+    margin-right: 4%;
+    margin-top: 80px;    
 }
 
+/* ---------------------------------------------------FOOTER------------*/
+
+.right-edge-column {
+    width: 14%;
+}
+
+.social-media i {
+    background-color: rgb(237, 205, 31);
+    font-size: 20px;
+    color: rgb(95, 94, 94);
+    padding: 5px 18px;    
+}
+
+.social-media i:hover {
+    color: #000000;
+}
 
