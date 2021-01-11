@@ -12,41 +12,63 @@
 </head>
 <body>  
     <header>
-        <div class="row g-0 nav-bar">
-            <a href="#home" class="col-md-2 logo">
+        <div class="row g-0 nav-bar">                    
+            <a href="#home" class="col-4 col-md-2 logo">
             </a>
-            <a href="#" class="col-md-1 czech-flag">                                 
+            <a href="index.html" class="col-4 col-md-1 english-flag">                                 
             </a>
-            <div class="col-md-9">
+            <div class="col-4 col-md-9 items">
+                <label for="toggle">
+                    <i class="fas fa-bars"></i>
+                </label>
                 <div class="row g-0">
-                    <div class="col">
-                        <ul id="nav" class="list-inline menu-container">
-                            
-                            <li class="col-6 col-sm-2 list-inline-item">
-                                <a href="#home">Home</a>
-                            </li>
-                            <li class="col-6 col-sm-2 list-inline-item">
-                                <a href="#about-us">About us</a>
-                            </li>
-                            <li class="col-6 col-sm-2 list-inline-item">
-                                <a href="#printing-solutions"><span>Printing Solutions</span></a>
-                            </li>
-                            <li class="col-6 col-sm-2 list-inline-item">
-                                <a href="#">References</a>
-                            </li>
-                            <li class="col-6 col-sm-2 list-inline-item">
-                                <a href="#">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
+                        <nav class="col navigation-main">
+                            <ul>
+                                <li class="col-2">
+                                    <a href="#home">Domů</a>
+                                </li>
+                                <li class="col-2">
+                                    <a href="#about-us">O nás</a>
+                                </li>
+                                <li class="col-2">
+                                    <a href="#printing-solutions">Tisková řešení</a>
+                                </li>
+                                <li class="col-2">
+                                    <a href="#">Reference</a>
+                                </li>
+                                <li class="col-2">
+                                    <a href="#">Kontakt</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <input type="checkbox" id="toggle" name="toggle"> 
+                        <nav class="navigation-responsive">
+                            <ul>
+                                <li>
+                                    <a href="#home">Domů</a>
+                                </li>
+                                <li>
+                                    <a href="#about-us" >O nás</a>
+                                </li>
+                                <li>
+                                    <a href="#printing-solutions" >Tisková řešení</a>
+                                </li>
+                                <li>
+                                    <a href="#" >Reference</a>
+                                </li>
+                                <li>
+                                    <a href="#" >Kontakt</a>
+                                </li>
+                            </ul>
+                        </nav>
                 </div>
-            </div>
+            </div>                   
         </div>
     </header>
     <section>
         <div class="row g-0" id="home">
             <div class="col main-hl">
-                <p>Optimal Printing Solutions</p>
+                <p>Optimální tisková řešení</p>
                 <a href="#about-us"><i class="fas fa-chevron-down"></i></a>
             </div>
         </div>
@@ -59,7 +81,7 @@
                     </div>
                     <div class="col-12 col-md-6 about-us-text">
                         <div class="about-us-text-margin">
-                            <h1>About us</h1>
+                            <h1>O nás</h1>
                             <div class="bar-under"></div>
                             <p>We have been dedicated to printing since 1993. We provide a comprehensive service from <strong>graphic design </strong>through<strong> printing, storage </strong>and <strong>distribution </strong>(or installation). </p>
                             <p>2018, we have expanded our services to include: <strong>digital textile printing. </strong></p> 
@@ -76,14 +98,14 @@
                 <div class="bg-printing-solutions">
                     <div class="row g-0">
                         <div class="col-9 three-solutions">
-                            <h1>Printing Solutions</h1>
+                            <h1>Tisková řešení</h1>
                             <div class="bar-under"></div>
                             <div class="row g-0">
-                                <div class="col-sm-4">
+                                <div class="col-md-4">
                                     <div class="col three-solutions-column">
                                         <div class="textile-picture">
                                         </div>
-                                        <h2>Printing on textiles</h2>
+                                        <h2>Potisk textilu</h2>
                                         <div class="bar-under"></div>
                                         <ul>
                                             <li>state-of-the-art digital textile printing technology</li>
@@ -96,11 +118,11 @@
                                         <div class="bar-under"></div>
                                     </div>
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col-md-4">
                                     <div class="col three-solutions-column">
                                         <div class="paper-picture">
                                         </div>
-                                        <h2>Printing on paper</h2>
+                                        <h2>Tisk na papír</h2>
                                         <div class="bar-under"></div>
                                         <ul>
                                             <li>contracts and forms (on self-copying paper, with barcodes, security features, holograms…)</li>
@@ -114,11 +136,11 @@
                                         <div class="bar-under"></div>
                                     </div>    
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col-md-4">
                                     <div class="col three-solutions-column">
                                         <div class="other-picture">
                                         </div>
-                                        <h2>Other printing</h2>
+                                        <h2>Ostatní tisk</h2>
                                         <div class="bar-under"></div>
                                         <ul>
                                             <li>large-scale advertising</li>

@@ -21,18 +21,20 @@ header {
     position: fixed;
 }
 
+
+
 .logo {
     background: url("../images/logo\ FORPEX\ grayish\ small.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    height: 70%;
-    margin-top: 1.5%;
-    margin-bottom: 1.5%;
+    height: 80px;
+    margin-top: 20px;
+    
 }
 
 
-nav li {
+.navigation-main li {
     float: left;
     list-style-type: none;
     text-align: center;
@@ -41,7 +43,7 @@ nav li {
     margin-right: 20px;
 }
 
-nav li a {
+.navigation-main li a {
     font-family: "Montserrat", sans-serif;
     font-size: 17px;
     text-decoration: none;
@@ -54,7 +56,7 @@ nav li a {
     transform: translateY(-50%);
 }
 
-nav li a:hover {
+.navigation-main li a:hover {
     color: rgb(237, 205, 31);
 }
 
@@ -63,9 +65,17 @@ nav li a:hover {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 30%;
-    margin-top: 3.3%;
-    margin-bottom: 3.3%;
+    height: 30px;
+    margin-top: 45px;
+}
+
+.english-flag {
+    background: url("../images/united-kingdom-flag-3d-round-icon-32.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30px;
+    margin-top: 45px;
 }
 
 
@@ -73,11 +83,11 @@ nav li a:hover {
 
 label[for="toggle"] {
         position: fixed;
-        top: 25px;
-        left: 25px;
+        top: 45px;
+        right: 45px;
         color: white;
         z-index: 6;
-        font-size: 3rem;
+        font-size: 30px;
     }
 
 .items i {
@@ -96,60 +106,64 @@ svg.hamburger {
         display: none;
     }
 
-@media (max-width: 768px) {
+@media (max-width: 843px) {
         .navigation-main {
             display: none;
         }
-.items i {
-    display: block;
-}
 
-svg.hamburger {
+        .items i {
             display: block;
         }
+
+        svg.hamburger {
+                    display: block;
+                }
 
         .navigation-responsive {
             display: block;
-            background: linear-gradient(to top, #be93c5,  #7bc6cc);
-            width: 200px;
-            height: 100vh;
+            background-color: rgb(237, 205, 31) ;
+            width: 80px;
+        
             position: fixed;
-            top: -100vh;
+            top: 100vh;
             right: 0;
-            left: 0;
             bottom: 0;
             margin: 0;
+            margin-top: 120px;
             padding: 0;
-            transition: top 1s;
+            transition: top 0.6s;
         }
-     
+    
         .navigation-responsive ul {
             display: block;
             list-style: none;
             height: 70vh;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            justify-content: space-around;
-            margin: 85px 0 0 0;
             padding: 0;
         }
 
         .navigation-responsive ul li {
-            margin: 0;
-            padding: 0;
+            
+            padding-top: 30px;
+            padding-left: 5px;
         }
 
         .navigation-responsive li a {
-            padding: 50px 20px 50px 30px;
             text-decoration:none;
             color:black;
-            font-family:sans-serif;
+            font-family: "Montserrat", sans-serif;
+            text-align: left;
+            font-size: small;
         }  
-      
-       #toggle:checked ~ .navigation-responsive {
-            top: 0vh;
+
+        .navigation-responsive li a:hover {
+            color: #fafafa;
         }
+
+                
+            
+        #toggle:checked ~ .navigation-responsive {
+                top: 0vh;
+            }
     }
 
 
@@ -177,6 +191,13 @@ svg.hamburger {
 dl, ol, ul {
     margin-top: 0;
     margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .main-hl p {
+        font-size: 30px;
+        margin-top: 180px;
+    }
 }
 
 /* ---------------------------------------------------ABOUT US------------*/
