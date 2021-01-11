@@ -46,3 +46,5 @@ Happy coding!
 
 
 https://www.countryflags.com/ - czech and english icon (language switch button)
+
+hamburger menu help - https://medium.com/@lizfaria/create-a-responsive-dropdown-menu-in-html-css-in-ten-steps-fdb4aa906978

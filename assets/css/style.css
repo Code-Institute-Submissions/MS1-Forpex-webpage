@@ -31,28 +31,30 @@ header {
     margin-bottom: 1.5%;
 }
 
-.menu-container {
-    font-size: 0;
+
+nav li {
+    float: left;
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    height: 120px;
+    margin-right: 20px;
 }
 
-#nav {
-   line-height: 120px; 
-   text-align: right;
-}
-
-#nav li a {
+nav li a {
     font-family: "Montserrat", sans-serif;
     font-size: 17px;
-    display: flex;
-    justify-content: space-around;
     text-decoration: none;
     color: #fafafa;
-    margin: 0;   
-    font-weight: 300; 
-    text-align: center;
+    font-weight: 300;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
-#nav li a:hover {
+nav li a:hover {
     color: rgb(237, 205, 31);
 }
 
@@ -66,13 +68,90 @@ header {
     margin-bottom: 3.3%;
 }
 
-span {
-    line-height: 25px;
+
+/* ---------------------------------------------------hamburger dropdown------------*/
+
+label[for="toggle"] {
+        position: fixed;
+        top: 25px;
+        left: 25px;
+        color: white;
+        z-index: 6;
+        font-size: 3rem;
+    }
+
+.items i {
+    display: none;
 }
 
-.list-inline-item:not(:last-child) {
-    margin-right: 0;
+.navigation-responsive {
+        display: none;
+    }
+
+#toggle {
+        display: none;
+    }
+
+svg.hamburger {
+        display: none;
+    }
+
+@media (max-width: 768px) {
+        .navigation-main {
+            display: none;
+        }
+.items i {
+    display: block;
 }
+
+svg.hamburger {
+            display: block;
+        }
+
+        .navigation-responsive {
+            display: block;
+            background: linear-gradient(to top, #be93c5,  #7bc6cc);
+            width: 200px;
+            height: 100vh;
+            position: fixed;
+            top: -100vh;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            margin: 0;
+            padding: 0;
+            transition: top 1s;
+        }
+     
+        .navigation-responsive ul {
+            display: block;
+            list-style: none;
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-around;
+            margin: 85px 0 0 0;
+            padding: 0;
+        }
+
+        .navigation-responsive ul li {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navigation-responsive li a {
+            padding: 50px 20px 50px 30px;
+            text-decoration:none;
+            color:black;
+            font-family:sans-serif;
+        }  
+      
+       #toggle:checked ~ .navigation-responsive {
+            top: 0vh;
+        }
+    }
+
 
 /* ---------------------------------------------------HOME------------*/
 .main-hl p {
