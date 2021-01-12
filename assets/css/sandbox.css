@@ -7,6 +7,7 @@ body {
   margin: 0;
   scroll-behavior: smooth;
 }
+
 /* ---------------------------------------------------HEADER------------*/
 
 header {
@@ -19,6 +20,7 @@ header {
     width: 100%;
     position: fixed;
 }
+
 .logo-and-flag {
     width: 30%;
 
@@ -27,7 +29,6 @@ header {
     display: flex;
     justify-content: space-around;
 }
-
 
 .logo {
     background: url("../images/logo\ FORPEX\ grayish\ small.png");
@@ -76,13 +77,11 @@ header {
     padding-left: 10px;
 }
 
-
 .navigation-main li a:hover {
     color: rgb(237, 205, 31);
 }
 
 /* ---------------------------------------------------dropdown menu------------*/
-
 
 
 .dropdown {
@@ -112,7 +111,6 @@ header {
 
 .dropdown span {
     margin-top: 45px;
-
 }
 
 .dropdown-content {
@@ -125,6 +123,7 @@ header {
     padding: 0 10px 10px 0;
     text-align: end;
 }
+
 .dropdown-content li {
     list-style-type:none;
     padding: 10px 0;
@@ -136,8 +135,7 @@ header {
     text-decoration: none;
     font-size: 15px;
     font-family: inherit;
-    color: rgba(30, 45, 59, 1);
-   
+    color: rgba(30, 45, 59, 1); 
 }
 
 ol, ul {
@@ -148,9 +146,8 @@ ol, ul {
   display: block;
 }
 
-
-
 /* ---------------------------------------------------HOME------------*/
+
 .main-hl p {
     font-family: "Montserrat", sans-serif;
     font-size: 60px;
@@ -188,11 +185,11 @@ dl, ol, ul {
 
 
 .empty-bar {
-    height: 120px;
+    height: 119px;
 }
 
 .bg-about-us {
-    background-color: white;
+    background-color: #fafafa;
 }
 
 .about-us-text-margin {
@@ -238,13 +235,15 @@ dl, ol, ul {
 
 /* ---------------------------------------------------PRINTING SOLUTIONS------------*/
 
-#printing-solutions {
-    height: 1120px;
+
+.bg-printing-solutions {
+    background-color: #fafafa;
+
 }
 
 
 .three-solutions {
-    height: 1000px;
+    
     margin-left: auto;
     margin-right: auto;
    
@@ -252,18 +251,17 @@ dl, ol, ul {
 
 .three-solutions h1 {
     font-family: "Montserrat", sans-serif;
-    color: #fafafa;
+    color: #5a5a5a;
     font-size: 40px;
     text-align: center;
-    padding-top: 100px;
-    font-weight: 350;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    padding-top: 50px;
+
 }
 
 .three-solutions .bar-under {
     background-color: rgb(237, 205, 31);
     height: 10px;
-    width: 40%;
+    width: 50%;
     margin-bottom: 30px;
     margin-top: 30px;
     margin-left: auto;
@@ -271,14 +269,18 @@ dl, ol, ul {
 }
 
 .three-solutions-column {
-    background-color: #fafafa;
+    background-color: rgb(224, 224, 224);
     text-align: center;
-    margin: 10px 6px;
+    margin: 10px 4%;
+}
+
+.three-solutions-column .bar-under {
+    width: 40%;
 }
 
 .textile-picture {
     width: 100%;
-    height: 250px;
+    height: 200px;
     background: url("/assets/images/Depositphotos_192275738_xl-2015small.png");
     background-position: center;
     background-size: cover;
@@ -287,7 +289,7 @@ dl, ol, ul {
 
 .paper-picture {
     width: 100%;
-    height: 250px;
+    height: 200px;
     background: url("/assets/images/paper\ print\ smaller.png");
     background-position: center;
     background-size: cover;
@@ -296,7 +298,7 @@ dl, ol, ul {
 
 .other-picture {
     width: 100%;
-    height: 250px;
+    height: 200px;
     background: url("/assets/images/Objects\ print\ -\ small.png");
     background-position: center;
     background-size: cover;
@@ -307,8 +309,6 @@ dl, ol, ul {
     font-family: "Montserrat", sans-serif;
     text-align: center;
     margin-top: 25px;
-    
-    
     font-weight: 500;
     color: #5a5a5a;
     font-size: 25px;
@@ -317,7 +317,7 @@ dl, ol, ul {
 .three-solutions-column li {
     font-family: "Montserrat", sans-serif;
     text-align: left;
-    margin: 15px 15px;
+    margin: 15px;
     font-weight: 400;
     color: #5a5a5a;
     font-size: 15px;
@@ -327,6 +327,10 @@ dl, ol, ul {
     margin-bottom: 20px;
     height: 7px;
     margin-top: 20px;
+}
+
+ol, ul {
+    padding-left: 15px;
 }
 
 /* ---------------------------------------------------FOOTER------------*/
