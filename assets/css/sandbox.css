@@ -208,7 +208,7 @@ dl, ol, ul {
 .about-us-text-margin p {
     font-size: 15px;
     margin-bottom: 20px; 
-    line-height: 30px;
+    
 }
 
 .about-us-text-margin .bar-under {
@@ -406,6 +406,7 @@ ol, ul {
 .container-logos {
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
 }
 
 .list-inline-item:not(:last-child) {
@@ -416,6 +417,9 @@ ol, ul {
         .list-inline-item {
         margin: 0 10px;
     }
+        .small-not-display {
+            display: none;
+        }
 }
 
 /* ---------------------------------------------------NUMBERS BAR------------*/
@@ -427,9 +431,9 @@ ol, ul {
 .number-column {
     background-color: rgb(237, 205, 31);
     height: 120px;
-    color: rgba(30, 45, 59, 1);
+    color: #5a5a5a;
     font-family: "Montserrat", sans-serif;
-    margin-top: 10px;
+    margin-bottom: 15px;
     text-align: center;
 }
 
@@ -441,12 +445,58 @@ ol, ul {
 /* ---------------------------------------------------CONTACT------------*/
 .background-contact {
     height: 1000px;
-    background-color: #5a5a5a;
+    background-color: #fafafa;
 }
 
+.address {
+    padding-right: 2%;
+    margin-top: 70px;
+}
 
+.address h1 {
+    font-family: "Montserrat", sans-serif;
+    color: #5a5a5a;
+    font-size: 40px;
+    text-align: right;
 
+}
+.address .bar-under {
+    background-color: rgb(237, 205, 31);
+    height: 10px;
+    width: 10%;
+    margin-top: 30px;
+    float: right;
+}
 
+.address p {
+    text-align: right;
+    font-size: 17px;
+    font-family: "Montserrat", sans-serif;
+    color: #5a5a5a;
+}
+
+.forpex {
+    margin-top: 70px;
+}
+
+.address a {
+    position: relative;
+    color: #5a5a5a;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    float: right;
+}
+
+.map {
+    padding-left: 2%;
+    margin-top: 70px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%
+}
 /* ---------------------------------------------------FOOTER------------*/
 
 .right-edge-column {
