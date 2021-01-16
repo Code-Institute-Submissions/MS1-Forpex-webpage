@@ -12,58 +12,41 @@
 </head>
 <body>  
     <header>
-        <div class="row g-0 nav-bar">                    
-            <a href="#home" class="col-4 col-md-2 logo">
-            </a>
-            <a href="index.html" class="col-4 col-md-1 english-flag">                                 
-            </a>
-            <div class="col-4 col-md-9 items">
-                <label for="toggle">
-                    <i class="fas fa-bars"></i>
-                </label>
-                <div class="row g-0">
-                        <nav class="col navigation-main">
-                            <ul>
-                                <li class="col-2">
-                                    <a href="#home">Domů</a>
-                                </li>
-                                <li class="col-2">
-                                    <a href="#about-us">O nás</a>
-                                </li>
-                                <li class="col-2">
-                                    <a href="#printing-solutions">Tisková řešení</a>
-                                </li>
-                                <li class="col-2">
-                                    <a href="#">Reference</a>
-                                </li>
-                                <li class="col-2">
-                                    <a href="#">Kontakt</a>
-                                </li>
-                            </ul>
-                        </nav>
-                        <input type="checkbox" id="toggle" name="toggle"> 
-                        <nav class="navigation-responsive">
-                            <ul>
-                                <li>
-                                    <a href="#home">Domů</a>
-                                </li>
-                                <li>
-                                    <a href="#about-us" >O nás</a>
-                                </li>
-                                <li>
-                                    <a href="#printing-solutions" >Tisková řešení</a>
-                                </li>
-                                <li>
-                                    <a href="#" >Reference</a>
-                                </li>
-                                <li>
-                                    <a href="#" >Kontakt</a>
-                                </li>
-                            </ul>
-                        </nav>
-                </div>
-            </div>                   
-        </div>
+        <div class="nav-bar"> 
+            <div class="logo-and-flag">                                  
+                <a href="#home" class="logo"></a>              
+                <a href="index.html" class="english-flag"></a>               
+            </div>
+            <div class="items">                                
+                <a href="#home">Domů</a>                                
+                <a href="#about-us">O nás</a>
+                <a href="#printing-solutions">Tisková řešení</a>
+                <a href="#references">Reference</a>
+                <a href="#contact">Kontakt</a>
+            </div>    
+            <div class="dropdown">
+                <span>Menu</span>
+                <div class="dropdown-content">                       
+                    <ul>
+                        <li>
+                            <a href="#home">Domů</a>
+                        </li>
+                        <li>
+                            <a href="#about-us">O nás</a>
+                        </li>
+                        <li>
+                            <a href="#printing-solutions"> Tisková řešení</a>
+                        </li>
+                        <li>
+                            <a href="#references">Reference</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Kontakt</a>
+                        </li>
+                    </ul>                      
+                </div>                       
+            </div> 
+        </div>  
     </header>
     <section>
         <div class="row g-0" id="home">
@@ -76,22 +59,35 @@
             <div class="row g-0">
                 <div class="col-12 empty-bar"></div>
                 <div class="bg-about-us">
-                    <div class="col-md-6 about-us-picture">
+                    <div class="col-md-6 about-us-picture" title="color-palette">
                         <div class="about-us-picture-margin"></div>
                     </div>
                     <div class="col-12 col-md-6 about-us-text">
                         <div class="about-us-text-margin">
                             <h1>O nás</h1>
                             <div class="bar-under"></div>
-                            <p>We have been dedicated to printing since 1993. We provide a comprehensive service from <strong>graphic design </strong>through<strong> printing, storage </strong>and <strong>distribution </strong>(or installation). </p>
-                            <p>2018, we have expanded our services to include: <strong>digital textile printing. </strong></p> 
-                            <p><strong>Got something you want to have printed? We're sure we can come up with something. </strong>We've already provided millions of prints, lots of prints of promotional items and textiles.</p>  
-                            <p><strong>We rely on a personal approach and the certainty that everything will be done on time and at a high quality.</strong></p>
+                            <p>Polygrafii se věnujeme od roku 1993. Poskytujeme <strong>komplexní službu od grafických návrhů přes tisk, skladování a distribuci </strong>(případně instalaci). </p>
+                            <p>Od roku 2018 jsme své služby rozšířili <strong>o digitální potisk textilu. </strong></p> 
+                            <p>To, co vás trápí, <strong>jsme pravděpodobně už řešili. </strong>Zabezpečovali jsme <strong> milióny tisků,</strong> spousty potisků reklamních předmětů a textilu.</p>  
+                            <p><strong>Zakládáme si na osobním přístupu a jistotě, že vše bude hotové včas a v požadované kvalitě.</strong></p>
                         </div>
+                    </div>
+                </div>
+                <div class="row g-0 bar-what-we-do">
+                    <div class="col-12 col-sm-4 what-we-do-column">
+                        <div class="what-we-do-text"><p class="text-center"> <strong>Navrhneme</strong> grafiku, <strong>vytiskneme</strong> a <strong>doručíme,</strong> kam si budete přát.</p></div>    
+                    </div>
+                    <div class="col-12 col-sm-4 what-we-do-column border-on-sides">
+                        <div class="what-we-do-text"><p class="text-center"> Je-li potřeba, materiály <strong>uskladníme</strong> a <strong>postupně dodáváme.</strong></p></div>
+                              
+                    </div>
+                    <div class="col-12 col-sm-4 what-we-do-column">
+                        <div class="what-we-do-text"><p class="text-center"><strong>Ohlídáme </strong>skladovou zásobu a<strong> upozorníme,</strong> když něco dochází.</p></div> 
                     </div>
                 </div>
             </div>
         </div>
+        <a href="#printing-solutions"><i class="fas fa-chevron-down arrow-down"></i></a>
         <div id="printing-solutions">
             <div class="row g-0">
                 <div class="col-12 empty-bar"></div>
@@ -101,61 +97,123 @@
                             <h1>Tisková řešení</h1>
                             <div class="bar-under"></div>
                             <div class="row g-0">
-                                <div class="col-md-4">
+                                <div class="col-lg-4">
                                     <div class="col three-solutions-column">
-                                        <div class="textile-picture">
+                                        <div class="textile-picture" title="machine-printing-on-t-shirt">
                                         </div>
-                                        <h2>Potisk textilu</h2>
+                                        <h2>Tisk na textil</h2>
                                         <div class="bar-under"></div>
                                         <ul>
-                                            <li>state-of-the-art digital textile printing technology</li>
-                                            <li>skin and environment friendly</li>
-                                            <li>unlimited high-resolution printing - printing of the finest details, shading and color transitions</li>
-                                            <li>printing on a small scale</li>
-                                            <li>we print on T-shirts, aprons, scarves, cloth bags, pillows, cosmetic bags, sweatshirts, sweatpants</li>
-                                            <li><strong> we prefer organic cotton textiles and fairtrade</strong></li>
+                                            <li>nejmodernější digitální technologie potisku textilu</li>
+                                            <li>barvy šetrné k životnímu prostředí a lidské pokožce</li>
+                                            <li>neomezená barevnost tisku ve vysokém rozlišení  - tisk nejjemnějších detailů, stínování a barevných přechodů</li>
+                                            <li>vhodné i pro malé série textilu</li>
+                                            <li>tiskneme na trička, zástěry, šátky, látkové tašky, polštáře, kosmetické taštičky,mikiny, tepláky</li>
+                                            <li><strong>upřednostňujeme textil z biobavlny a fairtraide</strong></li>
                                         </ul>
                                         <div class="bar-under"></div>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-lg-4">
                                     <div class="col three-solutions-column">
-                                        <div class="paper-picture">
+                                        <div class="paper-picture" title="Big-factory-machine-pritning-on-paper">
                                         </div>
                                         <h2>Tisk na papír</h2>
                                         <div class="bar-under"></div>
                                         <ul>
-                                            <li>contracts and forms (on self-copying paper, with barcodes, security features, holograms…)</li>
-                                            <li>printing on rolls</li>
-                                            <li>leaflets, company boards, magazines</li>
-                                            <li>catalogues, brochures, training materials, manuals, notebooks, stickers, scratch cards</li>
-                                            <li>printing on paper bags</li>
-                                            <li>packaging, boxes</li>
-                                            <li>vouchers, loyalty cards, invitations, envelopes, business cards</li>
+                                            <li>smlouvy a tiskopisy (samopropisovací, s čárovými kódy, ochrannými prvky, hologramy…)</li>
+                                            <li>tisk na role</li>
+                                            <li>letáky, firemní desky, časopisy</li>
+                                            <li>katalogy, brožury, školící materiály, manuály, poznámkové bloky, samolepky, stírací losy</li>
+                                            <li>potisk papírových tašek</li>
+                                            <li>obaly, krabičky</li>
+                                            <li>dárkové poukázky, věrnostní karty, pozvánky, obálky, vizitky</li>
                                         </ul>
                                         <div class="bar-under"></div>
                                     </div>    
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-lg-4">
                                     <div class="col three-solutions-column">
-                                        <div class="other-picture">
+                                        <div class="other-picture" title="Small-office-objects-with-printed-brands">
                                         </div>
                                         <h2>Ostatní tisk</h2>
                                         <div class="bar-under"></div>
                                         <ul>
-                                            <li>large-scale advertising</li>
-                                            <li>orientation infosystems</li>
-                                            <li>roll up stands</li>
-                                            <li>banners</li>
-                                            <li>3D presentation</li>
-                                            <li>shop window stickers, floor stickers</li>
-                                            <li>printing on advertising items</li>
+                                            <li>velkoplošné reklamy</li>
+                                            <li>orientační infosystémy</li>
+                                            <li>roll up stojany</li>
+                                            <li>bannery</li>
+                                            <li>3D prezentace</li>
+                                            <li>polepy na výlohy, podlahové samolepky</li>
+                                            <li>potisk reklamních předmětů</li>
                                         </ul>
                                         <div class="bar-under"></div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="references">
+            <div class="row g-0">
+                <div class="col-12 empty-bar"></div>
+                <div class="bg-references">
+                    <h1>Naši klienti</h1>
+                    <div class="bar-under">
+                    </div>
+                    <div class="container-logos">
+                        <ul class="list-inline d-flex justify-content-center">
+                            <li class="list-inline-item csob"></li>
+                            <li class="list-inline-item vzp"></li>
+                            <li class="list-inline-item era"></li>
+                            <li class="list-inline-item hpa"></li>
+                            <li class="list-inline-item inet"></li>
+                        </ul>
+                    </div>               
+                </div>
+                <div class="col-12 empty-bar small-not-display"></div>
+                <div class="row g-0 bar-numbers">
+                    <div class="col-12 col-sm-4 inline-block-center">
+                            <div class="item1"><p class="text-end" >přes</p></div>
+                            <div class="item2"><p class="text-center">28</p></div>
+                            <div class="item3"><p class="text-start"> let na českém trhu</p></div>    
+                    </div>
+                    <div class="col-12 col-sm-4 inline-block-center border-on-sides">
+                            <div class="item1"><p class="text-end" >přes</p></div>
+                            <div class="item2"><p class="text-center">4</p></div>
+                            <div class="item3"><p class="text-start"> milióny vyřízených zakázek</p></div>    
+                    </div>
+                    <div class="col-12 col-sm-4 inline-block-center">
+                            <div class="item1"><p class="text-end" >přes</p></div>
+                            <div class="item2"><p class="text-center">3</p></div>
+                            <div class="item3"><p class="text-start"> tisíce spokojených zákazníků</p></div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#contact"><i class="fas fa-chevron-down arrow-down"></i></a>
+        <div id="contact">
+            <div class="row g-0">
+                <div class="col-12 empty-bar"></div>
+                <div class="background-contact">
+                    <div class="row g-0">
+                        <div class="col-sm-6 address">
+                            <h1>Kontakt</h1>
+                            <div class="bar-under">
+                            </div>
+                            <p class="forpex"> <strong> FORPEX s.r.o.</strong></p>                       
+                            <p> Pod Strašnickou vinicí 15</p>
+                            <p> 100 00 Praha 10</p>
+                            <p> Česká republika  </p> 
+                            <p> IČ 45309094</p>
+                            <p> +420 274 779 937</p>
+                            <a href="mailto:forpex@forpex.cz"> forpex@forpex.cz</a>
 
+                        </div>
+                        <div class="col-sm-6 map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.418793993446!2d14.488299715717964!3d50.07844547942577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b931416c2b281%3A0xaa85ea608e1adc2e!2sPod%20Stra%C5%A1nickou%20Vinic%C3%AD%2015%2C%20100%2000%20Stra%C5%A1nice!5e0!3m2!1sen!2scz!4v1610582641310!5m2!1sen!2scz"></iframe> 
                         </div>
                     </div>
                 </div>
@@ -164,21 +222,30 @@
     </section>
     <footer>
         <div class="fixed-bottom">
-                <div class="row g-0 justify-content-end social-media">
-                    <div class="col-2 right-edge-column">  
-                        <div class="row g-0">
-                                <div class="col-12 col-md-4">
-                                        <a href="#" class="hvr-float"><i class="fas fa-phone-square"></i></a>
-                                </div>
-                                <div class="col-12 col-md-4">
-                                    <a href="mailto:someone@example.com" class="hvr-float"><i class="fas fa-envelope-square"></i></a>
-                                </div>
-                                <div class="col-12 col-md-4">
-                                    <a href="#" class="hvr-float"><i class="fab fa-instagram-square"></i></a>
-                                </div>
-                        </div> 
-                    </div>            
-                </div>
+            <div class="row g-0 justify-content-end social-media">
+                <div class="col-2 right-edge-column">  
+                    <div class="row g-0">
+                        <div class="col-12 col-md-4">
+                            <a href="#contact" class="hvr-float">
+                                <i class="fas fa-phone-square"></i>
+                                <span class="sr-only">phone</span>
+                            </a>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <a href="mailto:forpex@forpex.cz" class="hvr-float">
+                                <i class="fas fa-envelope-square"></i>
+                                <span class="sr-only">e-mail</span>
+                            </a>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <a href="#" class="hvr-float">
+                                <i class="fab fa-instagram-square"></i>
+                                <span class="sr-only">instagram</span>
+                            </a>
+                        </div>
+                    </div> 
+                </div>            
+            </div>
         </div>
     </footer>
 </body>
