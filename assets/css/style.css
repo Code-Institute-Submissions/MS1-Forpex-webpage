@@ -7,6 +7,7 @@ body {
   margin: 0;
   scroll-behavior: smooth;
 }
+
 /* ---------------------------------------------------HEADER------------*/
 
 header {
@@ -17,156 +18,136 @@ header {
     background-color: rgba(30, 45, 59, 1);
     height: 120px;
     width: 100%;
-    top: 0px;
     position: fixed;
 }
 
+.logo-and-flag {
+    width: 30%;
 
+    float: left;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+}
 
 .logo {
     background: url("../images/logo\ FORPEX\ grayish\ small.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    height: 80px;
-    margin-top: 20px;
+    width: 100px;
+    float: left; 
+}
     
-}
-
-
-.navigation-main li {
-    float: left;
-    list-style-type: none;
-    text-align: center;
-    position: relative;
-    height: 120px;
-    margin-right: 20px;
-}
-
-.navigation-main li a {
-    font-family: "Montserrat", sans-serif;
-    font-size: 17px;
-    text-decoration: none;
-    color: #fafafa;
-    font-weight: 300;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
-
-.navigation-main li a:hover {
-    color: rgb(237, 205, 31);
-}
-
-.czech-flag {
+ .czech-flag {
     background: url("../images/czech-republic-flag-round-icon-128.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 30px;
-    margin-top: 45px;
-}
+    width: 30px;
+    float: left;
+}   
 
 .english-flag {
     background: url("../images/united-kingdom-flag-3d-round-icon-32.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 30px;
-    margin-top: 45px;
+    width: 30px;
+    float: left;
 }
 
+.items {    
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    float: left;
+    width: 68%;
+}
 
-/* ---------------------------------------------------hamburger dropdown------------*/
+.items a {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 45px;
+    text-decoration: none;
+    color: #fafafa;
+    font-size: 17px;
+    font-weight: 300;
+    display: block;
+    text-align: center;
+    padding-left: 10px;
+}
 
-label[for="toggle"] {
-        position: fixed;
-        top: 45px;
-        right: 45px;
-        color: white;
-        z-index: 6;
-        font-size: 30px;
-    }
+.navigation-main li a:hover {
+    color: rgb(237, 205, 31);
+}
 
-.items i {
+/* ---------------------------------------------------dropdown menu------------*/
+
+
+.dropdown {
     display: none;
 }
 
-.navigation-responsive {
+
+@media (max-width: 600px) {
+    .items {
         display: none;
     }
-
-#toggle {
-        display: none;
+  
+    .dropdown {
+    display: inline-block;
+    font-size: 17px;
+    color: #fafafa;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 45px;
+    position: absolute;
+    right: 30px;
     }
 
-svg.hamburger {
-        display: none;
+    .logo-and-flag {
+    width: 65%;
     }
+}
 
-@media (max-width: 843px) {
-        .navigation-main {
-            display: none;
-        }
+.dropdown span {
+    margin-top: 45px;
+}
 
-        .items i {
-            display: block;
-        }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: -10px;
+    background-color: rgb(237, 205, 31);
+    min-width: 100px;
+    z-index: 1;
+    padding: 0 10px 10px 0;
+    text-align: end;
+}
 
-        svg.hamburger {
-                    display: block;
-                }
+.dropdown-content li {
+    list-style-type:none;
+    padding: 10px 0;
+    /* border-bottom: 1px solid;
+    border-color: rgba(30, 45, 59, 1); */
+}
 
-        .navigation-responsive {
-            display: block;
-            background-color: rgb(237, 205, 31) ;
-            width: 80px;
-        
-            position: fixed;
-            top: 100vh;
-            right: 0;
-            bottom: 0;
-            margin: 0;
-            margin-top: 120px;
-            padding: 0;
-            transition: top 0.6s;
-        }
-    
-        .navigation-responsive ul {
-            display: block;
-            list-style: none;
-            height: 70vh;
-            padding: 0;
-        }
+.dropdown-content li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: inherit;
+    color: rgba(30, 45, 59, 1); 
+}
 
-        .navigation-responsive ul li {
-            
-            padding-top: 30px;
-            padding-left: 5px;
-        }
+ol, ul {
+    padding-left: 0;
+}
 
-        .navigation-responsive li a {
-            text-decoration:none;
-            color:black;
-            font-family: "Montserrat", sans-serif;
-            text-align: left;
-            font-size: small;
-        }  
-
-        .navigation-responsive li a:hover {
-            color: #fafafa;
-        }
-
-            
-        #toggle:hover ~ .navigation-responsive {
-                top: 0vh;
-            }
-    }
-
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 /* ---------------------------------------------------HOME------------*/
+
 .main-hl p {
     font-family: "Montserrat", sans-serif;
     font-size: 60px;
@@ -192,7 +173,7 @@ dl, ol, ul {
     margin-bottom: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .main-hl p {
         font-size: 40px;
         margin-top: 170px;
@@ -204,11 +185,11 @@ dl, ol, ul {
 
 
 .empty-bar {
-    height: 120px;
+    height: 119px;
 }
 
 .bg-about-us {
-    background-color: white;
+    background-color: #fafafa;
 }
 
 .about-us-text-margin {
@@ -227,13 +208,13 @@ dl, ol, ul {
 .about-us-text-margin p {
     font-size: 15px;
     margin-bottom: 20px; 
-    line-height: 30px;
+    
 }
 
 .about-us-text-margin .bar-under {
     background-color: rgb(237, 205, 31);
     height: 10px;
-    width: 50%;
+    width: 25%;
     margin-bottom: 30px;
     margin-top: 30px;
 }
@@ -254,32 +235,29 @@ dl, ol, ul {
 
 /* ---------------------------------------------------PRINTING SOLUTIONS------------*/
 
-#printing-solutions {
-    height: 1120px;
+
+.bg-printing-solutions {
+    background-color: #fafafa;
 }
 
 
 .three-solutions {
-    height: 1000px;
     margin-left: auto;
     margin-right: auto;
-   
 }
 
 .three-solutions h1 {
     font-family: "Montserrat", sans-serif;
-    color: #fafafa;
+    color: #5a5a5a;
     font-size: 40px;
     text-align: center;
-    padding-top: 100px;
-    font-weight: 350;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    padding-top: 50px;
 }
 
 .three-solutions .bar-under {
     background-color: rgb(237, 205, 31);
     height: 10px;
-    width: 40%;
+    width: 10%;
     margin-bottom: 30px;
     margin-top: 30px;
     margin-left: auto;
@@ -287,14 +265,18 @@ dl, ol, ul {
 }
 
 .three-solutions-column {
-    background-color: #fafafa;
+    background-color: rgb(224, 224, 224);
     text-align: center;
-    margin: 10px 6px;
+    margin: 10px 4%;
+}
+
+.three-solutions-column .bar-under {
+    width: 20%;
 }
 
 .textile-picture {
     width: 100%;
-    height: 250px;
+    height: 200px;
     background: url("/assets/images/Depositphotos_192275738_xl-2015small.png");
     background-position: center;
     background-size: cover;
@@ -303,7 +285,7 @@ dl, ol, ul {
 
 .paper-picture {
     width: 100%;
-    height: 250px;
+    height: 200px;
     background: url("/assets/images/paper\ print\ smaller.png");
     background-position: center;
     background-size: cover;
@@ -312,7 +294,7 @@ dl, ol, ul {
 
 .other-picture {
     width: 100%;
-    height: 250px;
+    height: 200px;
     background: url("/assets/images/Objects\ print\ -\ small.png");
     background-position: center;
     background-size: cover;
@@ -323,8 +305,6 @@ dl, ol, ul {
     font-family: "Montserrat", sans-serif;
     text-align: center;
     margin-top: 25px;
-    
-    
     font-weight: 500;
     color: #5a5a5a;
     font-size: 25px;
@@ -333,7 +313,7 @@ dl, ol, ul {
 .three-solutions-column li {
     font-family: "Montserrat", sans-serif;
     text-align: left;
-    margin: 15px 15px;
+    margin: 15px;
     font-weight: 400;
     color: #5a5a5a;
     font-size: 15px;
@@ -345,6 +325,213 @@ dl, ol, ul {
     margin-top: 20px;
 }
 
+ol, ul {
+    padding-left: 15px;
+}
+
+/* ---------------------------------------------------REFERENCES------------*/
+
+.bg-references {
+    background-color: #fafafa;
+}
+
+.bg-references h1 {
+    font-family: "Montserrat", sans-serif;
+    color: #5a5a5a;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.bg-references .bar-under {
+    background-color: rgb(237, 205, 31);
+    height: 10px;
+    width: 10%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* ---------------------------------------------------CLIENTS LOGOS------------*/
+
+.csob {
+    height: 100px;
+    width: 100px;
+    background: url("/assets/images/csob-logo-png-transparent.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 30px;
+}
+
+.vzp {
+    height: 100px;
+    width: 100px;
+    background: url("/assets/images/vzp.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 30px;
+}
+
+.era {
+    height: 100px;
+    width: 100px;
+    background: url("/assets/images/era.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 30px;
+}
+
+.hpa {
+    height: 100px;
+    width: 100px;
+    background: url("/assets/images/hpa-logo.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 30px;
+}
+
+.inet {       
+    height: 100px;
+    width: 100px;
+    background: url("/assets/images/inet\ logo.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 30px;
+}
+
+.container-logos {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
+
+
+/* ---------------------------------------------------NUMBERS BAR------------*/
+.bar-numbers {
+    
+    height: 120px;
+}
+
+.inline-block-center {
+    height: 100%;    
+    text-align: center;
+    background-color: rgb(237, 205, 31);
+}
+
+
+.inline-block-center div {
+  display: inline-block;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  color: #5a5a5a;
+}
+
+.item1 {
+    font-size: 15px; 
+}
+
+.item2 {
+    font-size: 80px;
+}
+
+.item3 {
+    font-size: 17px;
+    width: 20%;
+    line-height: 20px;
+    letter-spacing: -1px;
+}
+
+.item3 p {
+    width: fit-content;
+}
+
+.border-on-sides {
+    border-style: solid;
+    border-width: 3px;
+    border-top: 0;
+    border-bottom: 0;
+    border-color: #fafafa;
+}
+
+@media (max-width: 600px) {
+        .list-inline-item {
+        margin: 0 10px;
+    }
+        .small-not-display {
+            display: none;
+        }
+        .border-on-sides {   
+        border-style: solid;
+        border-width: 3px;
+        border-left: 0;
+        border-right: 0;
+        border-color: #fafafa;
+    }
+}
+
+/* ---------------------------------------------------CONTACT------------*/
+.background-contact {
+    height: 600px;
+    background-color: #fafafa;
+}
+
+.address {
+    padding-right: 2%;
+    margin-top: 70px;
+}
+
+.address h1 {
+    font-family: "Montserrat", sans-serif;
+    color: #5a5a5a;
+    font-size: 40px;
+    text-align: right;
+
+}
+.address .bar-under {
+    background-color: rgb(237, 205, 31);
+    height: 10px;
+    width: 10%;
+    margin-top: 30px;
+    float: right;
+}
+
+.address p {
+    text-align: right;
+    font-size: 17px;
+    font-family: "Montserrat", sans-serif;
+    color: #5a5a5a;
+}
+
+.forpex {
+    margin-top: 70px;
+}
+
+.address a {
+    position: relative;
+    color: #5a5a5a;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    float: right;
+}
+
+.map {
+    padding-left: 2%;
+    margin-top: 70px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%
+}
 /* ---------------------------------------------------FOOTER------------*/
 
 .right-edge-column {
@@ -356,6 +543,7 @@ dl, ol, ul {
     font-size: 20px;
     color: rgb(95, 94, 94);
     padding: 5px 18px;    
+    box-shadow: 1px 1px 5px grey;
 }
 
 .social-media i:hover {

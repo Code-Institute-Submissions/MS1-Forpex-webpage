@@ -413,26 +413,17 @@ ol, ul {
     margin-right: 0;
 }
 
-@media (max-width: 600px) {
-        .list-inline-item {
-        margin: 0 10px;
-    }
-        .small-not-display {
-            display: none;
-        }
-}
 
 /* ---------------------------------------------------NUMBERS BAR------------*/
 .bar-numbers {
-    background-color: rgb(170, 170, 32);
+    
     height: 120px;
-    margin-top: 300px;
 }
 
 .inline-block-center {
-    background-color: violet;
     height: 100%;    
     text-align: center;
+    background-color: rgb(237, 205, 31);
 }
 
 
@@ -440,6 +431,7 @@ ol, ul {
   display: inline-block;
   text-align: left;
   font-family: "Montserrat", sans-serif;
+  color: #5a5a5a;
 }
 
 .item1 {
@@ -461,7 +453,29 @@ ol, ul {
     width: fit-content;
 }
 
+.border-on-sides {
+    border-style: solid;
+    border-width: 3px;
+    border-top: 0;
+    border-bottom: 0;
+    border-color: #fafafa;
+}
 
+@media (max-width: 600px) {
+        .list-inline-item {
+        margin: 0 10px;
+    }
+        .small-not-display {
+            display: none;
+        }
+        .border-on-sides {   
+        border-style: solid;
+        border-width: 3px;
+        border-left: 0;
+        border-right: 0;
+        border-color: #fafafa;
+    }
+}
 
 /* ---------------------------------------------------CONTACT------------*/
 .background-contact {
@@ -529,6 +543,7 @@ iframe {
     font-size: 20px;
     color: rgb(95, 94, 94);
     padding: 5px 18px;    
+    box-shadow: 1px 1px 5px grey;
 }
 
 .social-media i:hover {
