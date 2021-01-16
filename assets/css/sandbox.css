@@ -423,24 +423,45 @@ ol, ul {
 }
 
 /* ---------------------------------------------------NUMBERS BAR------------*/
-
-.numbers {
+.bar-numbers {
+    background-color: rgb(170, 170, 32);
     height: 120px;
+    margin-top: 300px;
 }
 
-.number-column {
-    background-color: rgb(237, 205, 31);
-    height: 120px;
-    color: #5a5a5a;
-    font-family: "Montserrat", sans-serif;
-    margin-bottom: 15px;
+.inline-block-center {
+    background-color: violet;
+    height: 100%;    
     text-align: center;
 }
 
 
-.three-thousand {
-    font-size: xx-large;
+.inline-block-center div {
+  display: inline-block;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
 }
+
+.item1 {
+    font-size: 15px; 
+}
+
+.item2 {
+    font-size: 80px;
+}
+
+.item3 {
+    font-size: 17px;
+    width: 20%;
+    line-height: 20px;
+    letter-spacing: -1px;
+}
+
+.item3 p {
+    width: fit-content;
+}
+
+
 
 /* ---------------------------------------------------CONTACT------------*/
 .background-contact {
