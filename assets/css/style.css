@@ -233,6 +233,40 @@ dl, ol, ul {
     margin-top: 50px;    
 }
 
+
+/* ---------------------------------------------------YELLOW BAR WHAT-WE-DO------------*/
+.bar-what-we-do {
+    height: 120px;
+    margin-top: 120px;
+}
+
+.what-we-do-column {
+    height: 100%;    
+    background-color: rgb(237, 205, 31);
+
+}
+
+.what-we-do-text {
+    font-size: 18px;
+    width: 90%;
+    line-height: 20px;
+    font-family: "Montserrat", sans-serif;
+    color: #5a5a5a;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.arrow-down {
+    font-size: 60px;
+    color: #fafafa;
+    text-align: center;
+    margin-left: 48%;
+    margin-top: 10%;
+}
+
 /* ---------------------------------------------------PRINTING SOLUTIONS------------*/
 
 
@@ -461,21 +495,6 @@ ol, ul {
     border-color: #fafafa;
 }
 
-@media (max-width: 600px) {
-        .list-inline-item {
-        margin: 0 10px;
-    }
-        .small-not-display {
-            display: none;
-        }
-        .border-on-sides {   
-        border-style: solid;
-        border-width: 3px;
-        border-left: 0;
-        border-right: 0;
-        border-color: #fafafa;
-    }
-}
 
 /* ---------------------------------------------------CONTACT------------*/
 .background-contact {
@@ -550,3 +569,29 @@ iframe {
     color: #000000;
 }
 
+@media (max-width: 575px) {
+        .list-inline-item {
+        margin: 0 10px;
+    }
+        .small-not-display {
+            display: none;
+        }
+        .border-on-sides {   
+        border-style: solid;
+        border-width: 3px;
+        border-left: 0;
+        border-right: 0;
+        border-color: #fafafa;
+    }
+        .arrow-down {
+            display: none;
+        }
+
+        .background-contact, .bg-printing-solutions {
+            margin-top: 120px;
+        }
+
+        .bar-what-we-do {
+            margin-top: 0;
+        }
+}
