@@ -1,5 +1,8 @@
+
+/* --------------------------------------------------- BODY/BACKGROUND ------------*/
+
 body {
-  background-image: url("/assets/images/Background.png");
+  background-image: url("/assets/images/background.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 100%;
@@ -8,7 +11,7 @@ body {
   scroll-behavior: smooth;
 }
 
-/* ---------------------------------------------------HEADER------------*/
+/* --------------------------------------------------- HEADER ------------*/
 
 header {
     margin: 0;
@@ -30,7 +33,7 @@ header {
 }
 
 .logo {
-    background: url("../images/logo\ FORPEX\ grayish\ small.png");
+    background: url("../images/forpex_logo_white.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -39,7 +42,7 @@ header {
 }
     
  .czech-flag {
-    background: url("../images/czech-republic-flag-round-icon-128.png");
+    background: url("../images/czech_flag.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -48,7 +51,7 @@ header {
 }   
 
 .english-flag {
-    background: url("../images/united-kingdom-flag-round-icon-128.png");
+    background: url("../images/uk_flag.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -80,7 +83,7 @@ header {
     color: rgb(237, 205, 31);
 }
 
-/* ---------------------------------------------------dropdown menu------------*/
+/* --------------------------------------------------- DROPDOWN MENU ------------*/
 
 .dropdown {
     display: none;
@@ -141,7 +144,7 @@ ol, ul {
   display: block;
 }
 
-/* ---------------------------------------------------HOME------------*/
+/* --------------------------------------------------- HOME ------------*/
 
 .main-hl p {
     font-family: "Montserrat", sans-serif;
@@ -174,7 +177,7 @@ dl, ol, ul {
     }
 }
 
-/* ---------------------------------------------------ABOUT US------------*/
+/* --------------------------------------------------- ABOUT US ------------*/
 
 
 .empty-bar {
@@ -216,7 +219,7 @@ dl, ol, ul {
 }
 
 .about-us-picture-margin {
-    background: url("../images/Depositphotos_1594482_xl-2015.jpg");
+    background: url("../images/color_palette.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 550px;
@@ -226,7 +229,7 @@ dl, ol, ul {
 }
 
 
-/* ---------------------------------------------------YELLOW BAR WHAT-WE-DO------------*/
+/* --------------------------------------------------- YELLOW BAR WHAT-WE-DO ------------*/
 
 .bar-what-we-do {
     height: 120px;
@@ -258,7 +261,7 @@ dl, ol, ul {
     margin-top: 10%;
 }
 
-/* ---------------------------------------------------PRINTING SOLUTIONS------------*/
+/* --------------------------------------------------- PRINTING SOLUTIONS ------------*/
 
 .bg-printing-solutions {
     background-color: #fafafa;
@@ -300,7 +303,7 @@ dl, ol, ul {
 .textile-picture {
     width: 100%;
     height: 200px;
-    background: url("/assets/images/Depositphotos_192275738_xl-2015small.png");
+    background: url("/assets/images/print_t_shirts.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -309,7 +312,7 @@ dl, ol, ul {
 .paper-picture {
     width: 100%;
     height: 200px;
-    background: url("/assets/images/paper\ print\ smaller.png");
+    background: url("/assets/images/print_paper.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -318,7 +321,7 @@ dl, ol, ul {
 .other-picture {
     width: 100%;
     height: 200px;
-    background: url("/assets/images/Objects\ print\ -\ small.png");
+    background: url("/assets/images/print_objects.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -352,7 +355,7 @@ ol, ul {
     padding-left: 15px;
 }
 
-/* ---------------------------------------------------REFERENCES------------*/
+/* --------------------------------------------------- REFERENCES ------------*/
 
 .bg-references {
     background-color: #fafafa;
@@ -375,12 +378,12 @@ ol, ul {
     margin-right: auto;
 }
 
-/* ---------------------------------------------------CLIENTS LOGOS------------*/
+/* --------------------------------------------------- CLIENTS LOGOS ------------*/
 
 .csob {
     height: 100px;
     width: 100px;
-    background: url("/assets/images/csob-logo-png-transparent.png");
+    background: url("/assets/images/csob.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -410,7 +413,7 @@ ol, ul {
 .hpa {
     height: 100px;
     width: 100px;
-    background: url("/assets/images/hpa-logo.png");
+    background: url("/assets/images/hpa.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -420,7 +423,7 @@ ol, ul {
 .inet {       
     height: 100px;
     width: 100px;
-    background: url("/assets/images/inet\ logo.png");
+    background: url("/assets/images/inet.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -438,7 +441,7 @@ ol, ul {
 }
 
 
-/* ---------------------------------------------------NUMBERS BAR------------*/
+/* --------------------------------------------------- NUMBERS BAR ------------*/
 
 .bar-numbers {
     
@@ -486,7 +489,7 @@ ol, ul {
     border-color: #fafafa;
 }
 
-/* ---------------------------------------------------CONTACT------------*/
+/* --------------------------------------------------- CONTACT ------------*/
 
 .background-contact {
     height: 600px;
@@ -536,15 +539,17 @@ ol, ul {
 .map {
     padding-left: 2%;
     margin-top: 70px;
+    background-color: #fafafa;
 }
 
 iframe {
     width: 100%;
     height: 100%;
-    padding-right: 20px;
+    padding-right: 2%;
+    padding-bottom: 5px;
 }
 
-/* ---------------------------------------------------FOOTER------------*/
+/* --------------------------------------------------- FOOTER ------------*/
 
 .right-edge-column {
     width: 14%;
@@ -556,10 +561,6 @@ iframe {
     color: rgb(95, 94, 94);
     padding: 5px 18px;    
     box-shadow: 1px 1px 5px grey;
-}
-
-.social-media i:hover {
-    color: #000000;
 }
 
 @media (max-width: 575px) {
@@ -585,4 +586,28 @@ iframe {
         .bar-what-we-do {
             margin-top: 0;
         }
+        .address h1, .address p, .address a {
+            text-align: center;
+            float: unset;
+        }
+        .address .bar-under {
+            margin-left: auto;
+            margin-right: auto;
+            float: unset;
+        }
+        .forpex {
+            margin-top: 20px;
+        }
+}
+
+
+
+
+
+
+
+/* --------------------------------------------------- HOVER.CSS ------------*/
+
+.social-media i:hover {
+    color: #000000;
 }

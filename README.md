@@ -20,7 +20,7 @@ From this web-page the user (potentional client) should:
 - get a feeling, that the firm has an eye for design and looks stabile and reliable,
 - get simple and direct way of contacting with the firm - phone, email
 
-Here are wireframes I created at the very beginning of the process (they slightly vary from the final result) http://bit.ly/38PHIfo
+Here are wireframes I created at the very beginning of the process (they slightly vary from the final result) https://bit.ly/3bPSAvZ
 
 ## Features
 
@@ -35,6 +35,7 @@ Sections:
 - Printing solutions - simple description of 3 main printing areas FORPEX provides
 - Rerefences - logos of main clients (mainly known Czech banks and state offices)
 - Contact - simple contact page with the contact info and embedded google-map
+- Footer - simple 3 yellow icons (phone, email and instagram), not effected by scrolling - stay all time on the same place of the page - right down corner of the screen. With a hover effect.  
 
 
 ### Features Left to Implement
@@ -50,6 +51,7 @@ The whole page was built with HTML and CSS. Other sources:
 - [FontAwesome] (https://fontawesome.com/) for using icons
 - [GoogleFonts] (https://fonts.google.com/) to use Montserrat font 
 - [GoogleMaps] (https://www.google.com/maps) to use embaded map of the firm address
+- [Hover.css] (https://ianlunn.github.io/Hover/) to use hover effect on contact icons in the Footer
 
 
 ## Testing - to be done
