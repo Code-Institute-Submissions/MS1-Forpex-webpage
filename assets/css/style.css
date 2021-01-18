@@ -42,7 +42,7 @@ header {
 }
     
  .czech-flag {
-    background: url("../images/czech_flag.png");
+    background: url("../images/czech_republic.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -51,7 +51,7 @@ header {
 }   
 
 .english-flag {
-    background: url("../images/uk_flag.png");
+    background: url("../images/united_kingdom.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -125,8 +125,6 @@ header {
 .dropdown-content li {
     list-style-type:none;
     padding: 10px 0;
-    /* border-bottom: 1px solid;
-    border-color: rgba(30, 45, 59, 1); */
 }
 
 .dropdown-content li a {
@@ -500,7 +498,7 @@ ol, ul {
 /* --------------------------------------------------- CONTACT ------------*/
 
 .background-contact {
-    height: 600px;
+    min-height: 550px;
     background-color: #fafafa;
 }
 
@@ -557,6 +555,26 @@ iframe {
     padding-bottom: 5px;
 }
 
+.credits {
+    margin-top: 100px;
+    margin-bottom: 5px;
+    font-family: "Montserrat", sans-serif;
+    color: #5a5a5a;
+    font-size: 10px;
+}
+
+.credits p {
+    padding-left: 3px;
+    margin: 0;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.credits p a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #5a5a5a;
+}
 /* --------------------------------------------------- FOOTER ------------*/
 
 .right-edge-column {
@@ -609,9 +627,11 @@ iframe {
         .forpex {
             margin-top: 20px;
         }
-
         .map {
             margin-top: 30px;
+        }
+        .credits {
+            font-size: 8px;
         }
 }
 

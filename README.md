@@ -34,7 +34,8 @@ Sections:
 - Printing solutions - simple description of 3 main printing areas FORPEX provides
 - Rerefences - logos of main clients (mainly known Czech banks and state offices)
 - Contact - simple contact page with the contact info and embedded google-map
-- Footer - simple 3 yellow icons (phone, email and instagram), not effected by scrolling - stay all time on the same place of the page - right down corner of the screen. With a hover effect.  
+- Footer - simple 3 yellow icons (phone, email and instagram), not effected by scrolling - stay all time on the same place of the page - right down corner of the screen. With a hover effect. 
+- Credits - very small section at the very bottom of the page - attribution for the flag-icons-designer 
 
 - favicon - logo of the firm
 
@@ -100,7 +101,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Media
 - The photos used in this site were obtained from https://depositphotos.com/ and the firm owns full usage rights for all used images
 
-- the Czech and English icons (language switch buttons) were downloaded from https://www.countryflags.com/
+- the Czech and English icons (language switch buttons) made by Freepik from https://flaticon.com/  (required attribution at the very bottom of the page)
 
 ### Acknowledgements
 
