@@ -28,7 +28,6 @@ Here are wireframes I created at the very beginning of the process (they slightl
 Since FORPEX is print-oriented firm, I used this scroll-down effect with fixed background picture and several empty bars (holes in the scrolling layer) between each section to create remotely effect of a printing head scrolling over a paper. The empty bars are reduced in the mobile-size version of the page. 
 
 Sections:
-
 - Header - simple navigation bar with the logo and language options
 - Home page - simple headline on attractive background 
 - About us - simple description of the services FORPEX offers with yellow bar underlining FOPREX's expertise
@@ -37,11 +36,13 @@ Sections:
 - Contact - simple contact page with the contact info and embedded google-map
 - Footer - simple 3 yellow icons (phone, email and instagram), not effected by scrolling - stay all time on the same place of the page - right down corner of the screen. With a hover effect.  
 
+- favicon - logo of the firm
 
 ### Features Left to Implement
 - according to my quick research, Javascript offers smoother and visually more atractive movement while scrolling - since I am not able to use Javascript yet, I could not implement it already. But I am ready to make the scrolling smoother in the future.
-
 - from Javascript I also expect to learn and implement how to give some interesting slight movement/animation to the images while scrolling
+- for better orientation I also plan to highlight active menu items yellow - according to the section of scrolling page. I assume this could be also achieved by Javascript, which I am not yet familiar with. 
+
 
 ## Technologies Used
 

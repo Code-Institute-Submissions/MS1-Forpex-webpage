@@ -280,10 +280,15 @@ dl, ol, ul {
     padding-top: 50px;
 }
 
+.three-solutions h2 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .three-solutions .bar-under {
     background-color: rgb(237, 205, 31);
     height: 10px;
-    width: 10%;
+    width: 25%;
     margin-bottom: 30px;
     margin-top: 30px;
     margin-left: auto;
@@ -296,9 +301,7 @@ dl, ol, ul {
     margin: 10px 4%;
 }
 
-.three-solutions-column .bar-under {
-    width: 20%;
-}
+.three-solutions-column
 
 .textile-picture {
     width: 100%;
@@ -612,8 +615,6 @@ iframe {
         }
 }
 
-
-/* --------------------------------------------------- HOVER.CSS ------------*/
 
 .social-media i:hover {
     color: #000000;
