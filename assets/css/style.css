@@ -23,7 +23,6 @@ header {
 
 .logo-and-flag {
     width: 30%;
-
     float: left;
     height: 120px;
     display: flex;
@@ -77,23 +76,20 @@ header {
     padding-left: 10px;
 }
 
-.navigation-main li a:hover {
+.items a:hover {
     color: rgb(237, 205, 31);
 }
 
 /* ---------------------------------------------------dropdown menu------------*/
 
-
 .dropdown {
     display: none;
 }
-
 
 @media (max-width: 600px) {
     .items {
         display: none;
     }
-  
     .dropdown {
     display: inline-block;
     font-size: 17px;
@@ -103,7 +99,6 @@ header {
     position: absolute;
     right: 30px;
     }
-
     .logo-and-flag {
     width: 65%;
     }
@@ -150,8 +145,7 @@ ol, ul {
 
 .main-hl p {
     font-family: "Montserrat", sans-serif;
-    font-size: 60px;
-    font-weight: 300;
+    font-size: 45px;
     color: #fafafa;
     text-align: right;
     text-transform: uppercase;
@@ -161,11 +155,11 @@ ol, ul {
 }
 
 .main-hl a i{
-    font-size: 80px;
+    font-size: 60px;
     color: #fafafa;
     text-align: center;
     margin-left: 48%;
-    margin-bottom: 10%;
+    margin-bottom: 15px;
 }
 
 dl, ol, ul {
@@ -181,7 +175,6 @@ dl, ol, ul {
 }
 
 /* ---------------------------------------------------ABOUT US------------*/
-
 
 
 .empty-bar {
@@ -207,8 +200,7 @@ dl, ol, ul {
 
 .about-us-text-margin p {
     font-size: 15px;
-    margin-bottom: 20px; 
-    
+    margin-bottom: 20px;     
 }
 
 .about-us-text-margin .bar-under {
@@ -235,6 +227,7 @@ dl, ol, ul {
 
 
 /* ---------------------------------------------------YELLOW BAR WHAT-WE-DO------------*/
+
 .bar-what-we-do {
     height: 120px;
     margin-top: 120px;
@@ -243,7 +236,6 @@ dl, ol, ul {
 .what-we-do-column {
     height: 100%;    
     background-color: rgb(237, 205, 31);
-
 }
 
 .what-we-do-text {
@@ -255,7 +247,6 @@ dl, ol, ul {
     margin-top: 9%;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 
@@ -269,11 +260,9 @@ dl, ol, ul {
 
 /* ---------------------------------------------------PRINTING SOLUTIONS------------*/
 
-
 .bg-printing-solutions {
     background-color: #fafafa;
 }
-
 
 .three-solutions {
     margin-left: auto;
@@ -385,6 +374,7 @@ ol, ul {
     margin-left: auto;
     margin-right: auto;
 }
+
 /* ---------------------------------------------------CLIENTS LOGOS------------*/
 
 .csob {
@@ -449,6 +439,7 @@ ol, ul {
 
 
 /* ---------------------------------------------------NUMBERS BAR------------*/
+
 .bar-numbers {
     
     height: 120px;
@@ -495,8 +486,8 @@ ol, ul {
     border-color: #fafafa;
 }
 
-
 /* ---------------------------------------------------CONTACT------------*/
+
 .background-contact {
     height: 600px;
     background-color: #fafafa;
@@ -512,8 +503,8 @@ ol, ul {
     color: #5a5a5a;
     font-size: 40px;
     text-align: right;
-
 }
+
 .address .bar-under {
     background-color: rgb(237, 205, 31);
     height: 10px;
@@ -549,8 +540,10 @@ ol, ul {
 
 iframe {
     width: 100%;
-    height: 100%
+    height: 100%;
+    padding-right: 20px;
 }
+
 /* ---------------------------------------------------FOOTER------------*/
 
 .right-edge-column {
@@ -572,7 +565,7 @@ iframe {
 @media (max-width: 575px) {
         .list-inline-item {
         margin: 0 10px;
-    }
+        }
         .small-not-display {
             display: none;
         }
@@ -582,15 +575,13 @@ iframe {
         border-left: 0;
         border-right: 0;
         border-color: #fafafa;
-    }
+        }
         .arrow-down {
             display: none;
         }
-
         .background-contact, .bg-printing-solutions {
             margin-top: 120px;
         }
-
         .bar-what-we-do {
             margin-top: 0;
         }
