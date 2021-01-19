@@ -144,6 +144,7 @@ ol, ul {
 
 /* --------------------------------------------------- HOME ------------*/
 
+
 .main-hl p {
     font-family: "Montserrat", sans-serif;
     font-size: 45px;
@@ -153,6 +154,7 @@ ol, ul {
     word-spacing: 100vw;
     margin-right: 20%;
     margin-top: 20%;
+    height: 100%;
 }
 
 .main-hl a i{
