@@ -83,10 +83,42 @@ header {
     color: rgb(237, 205, 31);
 }
 
-/* --------------------------------------------------- DROPDOWN MENU ------------*/
+/* --------------------------------------------------- DROPDOWN MENU based on tutorial from w3schools.com ------------*/
 
 .dropdown {
     display: none;
+}
+
+.topnav {
+  position: relative;
+  height: 40px;
+  width: 120px;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: rgba(30, 45, 59, 1);
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  text-align: end;
+}
+
+#myLinks a {
+   background-color: rgb(237, 205, 31); 
+   padding: 10px 10px;
+}
+ 
+.topnav a.icon {
+  color: #fafafa;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 30px;
 }
 
 @media (max-width: 600px) {
@@ -96,50 +128,14 @@ header {
     .dropdown {
     display: inline-block;
     font-size: 17px;
-    color: #fafafa;
     font-family: "Montserrat", sans-serif;
-    margin-top: 45px;
+    margin-top: 38px;
     position: absolute;
     right: 30px;
     }
     .logo-and-flag {
     width: 65%;
     }
-}
-
-.dropdown span {
-    margin-top: 45px;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    right: -10px;
-    background-color: rgb(237, 205, 31);
-    min-width: 100px;
-    z-index: 1;
-    padding: 0 10px 10px 0;
-    text-align: end;
-}
-
-.dropdown-content li {
-    list-style-type:none;
-    padding: 10px 0;
-}
-
-.dropdown-content li a {
-    text-decoration: none;
-    font-size: 15px;
-    font-family: inherit;
-    color: rgba(30, 45, 59, 1); 
-}
-
-ol, ul {
-    padding-left: 0;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
 }
 
 /* --------------------------------------------------- HOME ------------*/
@@ -636,7 +632,6 @@ iframe {
             font-size: 8px;
         }
 }
-
 
 .social-media i:hover {
     color: #000000;

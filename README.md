@@ -105,4 +105,4 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Acknowledgements
 
-- I was planning to use hamburger-icon menu for small media-size from this tutorial https://medium.com/@lizfaria/create-a-responsive-dropdown-menu-in-html-css-in-ten-steps-fdb4aa906978, but at the end I decided that simple drop-down menu would be more suitable for this kind of a webpage, so I did not use any code from the tutorial or other sources.
+- I wrote part of the code using Javascript - the Dropdown Menu - based on w3schools.com tutorial https://www.w3schools.com/howto/howto_js_mobile_navbar.asp

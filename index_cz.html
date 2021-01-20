@@ -25,28 +25,34 @@
                 <a href="#references">Reference</a>
                 <a href="#contact">Kontakt</a>
             </div>    
+                <!-- Following part based on tutorial from w3schools.com  -->
             <div class="dropdown">
-                <span>Menu</span>
-                <div class="dropdown-content">                       
-                    <ul>
-                        <li>
-                            <a href="#home">Domů</a>
-                        </li>
-                        <li>
-                            <a href="#about-us">O nás</a>
-                        </li>
-                        <li>
-                            <a href="#printing-solutions"> Tisková řešení</a>
-                        </li>
-                        <li>
-                            <a href="#references">Reference</a>
-                        </li>
-                        <li>
-                            <a href="#contact">Kontakt</a>
-                        </li>
-                    </ul>                      
-                </div>                       
+                <div class="topnav">
+                    <div id="myLinks">
+                        <br>
+                        <br>
+                        <a href="#home">Domů</a>
+                        <a href="#about-us">O nás</a>
+                        <a href="#printing-solutions">Tisková řešení</a>
+                        <a href="#references">Reference</a>
+                        <a href="#contact">Kontakt</a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                </div>
+                <script>
+                function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+                }
+                </script>
             </div> 
+            <!-- End of the part based on tutorial from w3schools.com  -->                          
         </div>  
     </header>
     <section>
