@@ -1,6 +1,8 @@
 # MS1 - FORPEX webpage
 
 New webpage for existing Czech family firm FORPEX.
+
+![am_I_responsive_design](./assets/images/responsive_design.png)
  
 ## UX
 
