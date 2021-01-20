@@ -11,6 +11,17 @@ body {
   scroll-behavior: smooth;
 }
 
+/* --------------------------------------------------- SCROLL BEHAVIOR  ------------*/
+html {
+	scroll-behavior: smooth;
+}
+
+@media screen {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
 /* --------------------------------------------------- HEADER ------------*/
 
 header {
