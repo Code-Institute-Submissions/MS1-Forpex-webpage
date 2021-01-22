@@ -34,7 +34,7 @@ Sections:
 - Home page - simple headline on attractive background 
 - About us - simple description of the services FORPEX offers with yellow bar underlining FOPREX's expertise
 - Printing solutions - simple description of 3 main printing areas FORPEX provides
-- Rerefences - logos of main clients (mainly known Czech banks and state offices)
+- Rerefences - logos of main clients (mainly known Czech banks and state offices) and again yellow bar with numbers 
 - Contact - simple contact page with the contact info and embedded google-map
 - Footer - simple 3 yellow icons (phone, email and instagram), not effected by scrolling - stay all time on the same place of the page - right down corner of the screen. With a hover effect. 
 - Credits - very small section at the very bottom of the page - attribution for the flag-icons-designer 
@@ -45,6 +45,7 @@ Sections:
 - according to my quick research, Javascript offers smoother and visually more atractive movement while scrolling - since I am not able to use Javascript yet, I could not implement it already. But I am ready to make the scrolling smoother in the future.
 - from Javascript I also expect to learn and implement how to give some interesting slight movement/animation to the images while scrolling
 - for better orientation I also plan to highlight active menu items yellow - according to the section of scrolling page. I assume this could be also achieved by Javascript, which I am not yet familiar with. 
+- while testing I discovered that scrolling  
 
 
 ## Technologies Used
@@ -58,11 +59,13 @@ The whole page was built with HTML and CSS. Other sources:
 - [Hover.css] (https://ianlunn.github.io/Hover/) to use hover effect on contact icons in the Footer
 
 
-## Testing - to be done
+## Testing 
 
 https://validator.w3.org/nu/#textarea - Document checking completed. No errors or warnings to show.
 
 http://jigsaw.w3.org/css-validator/validator$link -  Congratulations! No Error Found.
+
+
 
 <!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 

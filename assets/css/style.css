@@ -12,13 +12,12 @@ body {
 }
 
 /* --------------------------------------------------- SCROLL BEHAVIOR  ------------*/
-html {
-	scroll-behavior: smooth;
-}
 
 @media screen {
 	html {
-		scroll-behavior: auto;
+    
+        overflow-y: scroll; 
+        -webkit-overflow-scrolling: touch;
 	}
 }
 
