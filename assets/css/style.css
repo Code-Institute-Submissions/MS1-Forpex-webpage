@@ -13,13 +13,12 @@ body {
 
 /* --------------------------------------------------- SCROLL BEHAVIOR  ------------*/
 
-@media screen {
-	html {
+html {
     
-        overflow-y: scroll; 
-        -webkit-overflow-scrolling: touch;
-	}
+       
+     -webkit-overflow-scrolling: touch;
 }
+
 
 /* --------------------------------------------------- HEADER ------------*/
 
