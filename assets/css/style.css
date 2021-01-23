@@ -5,7 +5,7 @@ body {
   background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 100%;
+  height: 100vh;
   background-size: cover;
   margin: 0;
   scroll-behavior: smooth;
@@ -18,8 +18,6 @@ body {
 /* --------------------------------------------------- SCROLL BEHAVIOR  ------------*/
 
 html {
-    
-    
     overflow: auto;
 }
 
