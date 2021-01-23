@@ -41,6 +41,8 @@ Sections:
 
 - favicon - logo of the firm
 
+![responsive_other_page](./assets/images/responsive_other_pages.png)
+
 ### Features Left to Implement
 - according to my quick research, Javascript offers smoother and visually more atractive movement while scrolling - since I am not able to use Javascript yet, I could not implement it already. But I am ready to make the scrolling smoother in the future.
 - from Javascript I also expect to learn and implement how to give some interesting slight movement/animation to the images while scrolling
@@ -57,13 +59,19 @@ The whole page was built with HTML and CSS. Other sources:
 - [GoogleFonts] (https://fonts.google.com/) to use Montserrat font 
 - [GoogleMaps] (https://www.google.com/maps) to use embaded map of the firm address
 - [Hover.css] (https://ianlunn.github.io/Hover/) to use hover effect on contact icons in the Footer
+- [Git] - Git is used to allow for tracking of any changes in the code and for the version control.
+- [GitPod] - GitPod, connected to GitHub, hosted the coding space and allowed the project to be committed to the Github repository.
+- [Github] - GitHub is used to host the project files and publish the live website by using Git Pages.
+- [Balsamiq] (https://balsamiq.com/) for creating the wireframes
 
 
 ## Testing 
 
-https://validator.w3.org/nu/#textarea - Document checking completed. No errors or warnings to show.
+https://validator.w3.org/nu/ - Document checking completed. No errors or warnings to show.
 
-http://jigsaw.w3.org/css-validator/validator$link -  Congratulations! No Error Found.
+http://www.css-validator.org/ -  Congratulations! No Error Found.
+
+lighthouse - dev. tools google chrome: ![lighthouse_report](./assets/images/lighhouse_report.png)
 
 
 
@@ -85,16 +93,42 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here. -->
 
-## Deployment - to be done
+## Deployment
 
-<!-- This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+### Publishing
 
-In addition, if it is not obvious, you should also describe how to run your code locally. -->
+This website was published using GitHub Pages. The procedure is outlined below.
+
+- Go to the GitHub website and log in.
+- On the left-hand side, you'll see all your repositories, select the appropriate one. (Repository used for this project).
+- Under the name of your chosen Repository you will see a ribbon of selections, click on 'Settings' located on the right hand side.
+- Scroll down till you see 'GitHub Pages' heading.
+- Under the 'Source' click on the dropdown and select 'master branch'
+- The page will reload and you'll see the link of your published page displayed under 'GitHub' pages.
+- It takes a few minutes for the site to be published, wait until the background of your link changes to a green color before trying to open it.
+
+### Forking
+
+If you wish to contribute to this website you can Fork it without affecting the main branch by following the procedure outlined below.
+
+- Go to the GitHub website and log in.
+- Locate the Repository used for this project.
+- On the right-hand side of the Repository name, you'll see the 'Fork' button. It's located next to the 'Star' and 'Watch' buttons.
+- This will create a copy in your personal repository.
+- Once you're finished making changes you can locate the 'New Pull Request' button just above the file listing in the original repository.
+
+### Cloning
+
+If you wish to clone or download this repository to your local device you can follow the procedure outlined below.
+
+- Go to the GitHub website and log in.
+- Locate the Repository used for this project.
+- Under the Repository name locate 'Clone or Download' button in green.
+- To clone the repository using HTTPS click the link under "Clone with HTTPS".
+- Open your Terminal and go to a directory where you want the cloned directory to be copied in.
+- Type Git Clone and paste the URL you copied from the GitHub.
+- To create your local clone press Enter
 
 
 ## Credits
@@ -110,4 +144,4 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Acknowledgements
 
-- I wrote part of the code using Javascript - the Dropdown Menu - based on w3schools.com tutorial https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+- part of the code uses Javascript - the Dropdown Menu - based on w3schools.com tutorial https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
