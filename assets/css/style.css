@@ -9,14 +9,18 @@ body {
   background-size: cover;
   margin: 0;
   scroll-behavior: smooth;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-position: center center; 
 }
 
 /* --------------------------------------------------- SCROLL BEHAVIOR  ------------*/
 
 html {
     
-       
-     -webkit-overflow-scrolling: touch;
+    
+    overflow: auto;
 }
 
 
