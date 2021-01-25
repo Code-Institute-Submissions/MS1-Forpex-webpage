@@ -8,16 +8,16 @@ New webpage for existing Czech family firm FORPEX.
 
 FORPEX is a Czech family firm established in 1993. FORPEX specialises in printing. FORPEX was in the past rather succesful, but nowadays with lower demands for printed materials the family focuses on other businesses. The family has established other rather succesful firm and FORPEX was left behind. The business is running, but needs some face-lifting including a new web-page. 
 
-USER STORIES: 
+### USER STORIES: 
 
-The owners of the firm expect from the new web-page:
+#### The owners of the firm expect from the new web-page:
 - mainly display, that the firm exists, business still runs
 - because the firm works with prints and design, the web-page must present certain level of design qualities
 - based on their experience, they need to talk to the (potential) clients or exchange emails, they do not want any web-form, questionaire etc., they want client to call them or write a direct email
-- their clients are usually banks and state officess so the web-page shoud be visualy down-to-earth, representing more stability and realiability than creativity and pioneering
+- their clients are usually banks and state officess so the web-page should be visualy down-to-earth, representing more stability and realiability than creativity and pioneering
 - it is clear, that at the moment the other businesses of the owners have priority, so the webpage can not demand any maintanence or activity from the family members
 
-From this web-page the user (potentional client) should:
+#### From this web-page the user (potentional client) should:
 - learn the basic information about FORPEX and fields of its expertise,
 - get a feeling, that the firm has an eye for design and looks stabile and reliable,
 - get simple and direct way of contacting with the firm - phone, email
@@ -47,13 +47,14 @@ Sections:
 - according to my quick research, Javascript offers smoother and visually more atractive movement while scrolling - since I am not able to use Javascript yet, I could not implement it already. But I am ready to make the scrolling smoother in the future.
 - from Javascript I also expect to learn and implement how to give some interesting slight movement/animation to the images while scrolling
 - for better orientation I also plan to highlight active menu items yellow - according to the section of scrolling page. I assume this could be also achieved by Javascript, which I am not yet familiar with. 
-- while testing I discovered that scrolling  
+
 
 
 ## Technologies Used
 
-The whole page was built with HTML and CSS. Other sources:
+The whole page was built with HTML, CSS and Javascript (hamburger menu icon)
 
+### Other sources:
 - [Bootstrap] (v5.0x) (https://getbootstrap.com/) For some particular details (grid, list-inline etc.)
 - [FontAwesome] (https://fontawesome.com/) for using icons
 - [GoogleFonts] (https://fonts.google.com/) to use Montserrat font 
@@ -73,28 +74,54 @@ http://www.css-validator.org/ -  Congratulations! No Error Found.
 
 lighthouse - dev. tools google chrome: ![lighthouse_report](./assets/images/lighhouse_report.png)
 
+### Manually tested all the features:
+
+#### Navigation bar
+- always at the top of the page
+- in small size screens - logo and language flag icon stay, all other menu items collapse into a hamburger icon
+- logo - always at the same place and always if I click on the logo, I come to the Home section of the page
+- language flag icon - if I click it, it takes me to the index_cz page, which is the translation of whole english page. This feature works vice versa (also Czech to English)
+- all the other menu items (Home, About us, Printing Solutions, References and Contacts) when clicked scroll downt or up the page according to the chosen section. 
+
+#### An arrow down icon 
+- used 3 times on the page, suggesting user to click/scroll down, if clicked scrolls to the next section
+
+#### 3 icons in the footer
+- telephone icon: when clicked pop-ups a click-to-call window so the user can immediately and directly call the firm 
+- e-mail icon: when clicked opens an e-mail client with the firm's email address
+- instagram icon: when clicked opens a new browser window with firm's instagram page
+- all three icons float up and change color to darker while hovered over
+- all of them stay the whole time at the right bottom of the screen for easy navigation
+
+- the Czech page was tested and works exactly the same way as the English index.html
+
+### Compatibility Testing
+
+#### Browser Compatibility
+- Tested on Chrome, Firefox, Opera, Internet Explorer, Microsoft Edge, Safari
+- OS Compatibility
+- Tested on iOS , Android 10 and Windows 10
+- Tested for responsivness on Chrome DevTools
 
 
-<!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+### Covering the Users stories:
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+#### The owners of the firm through the new web-page:
+- display, that the firm exists, business still runs
+- prove, that they operate on certain level of design qualities 
+- give to their clients direct way to contact the firm (simple click-and-call or pop-up email client with firm's address)
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+- also (specifically requested by the owners) the new web page does not require any activity or maintanence from the owners
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+#### From this web-page the user (potentional client):
+- learns the basic information about FORPEX and fields of its expertise,
+- gets a feeling, that the firm has an eye for design and looks stabile and reliable,
+- gets simple and direct way of contacting with the firm - phone, email
+- can get all the information about the firm in Czech (for locals) or in English (for foreign clients)
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here. -->
-
-## Deployment
-
+### Bugs and problems:
+- scrolling down the page on Safari does not work smoothly - page jumps to the navigated sections
+- appearence on real mobile phone looks different than phone-size vizualization on Chrome dev. tools. The background image on real phone has a different scale.
 
 ### Publishing
 
