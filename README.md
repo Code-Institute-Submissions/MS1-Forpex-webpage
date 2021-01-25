@@ -91,7 +91,7 @@ lighthouse - dev. tools google chrome: ![lighthouse_report](./assets/images/ligh
 - e-mail icon: when clicked opens an e-mail client with the firm's email address
 - instagram icon: when clicked opens a new browser window with firm's instagram page
 - all three icons float up and change color to darker while hovered over
-- all of them stay the whole time at the right bottom of the screen for easy navigation
+- all of them stay the whole time at the right bottom of the screen for an easy navigation
 
 - the Czech page was tested and works exactly the same way as the English index.html
 
@@ -111,17 +111,18 @@ lighthouse - dev. tools google chrome: ![lighthouse_report](./assets/images/ligh
 - prove, that they operate on certain level of design qualities 
 - give to their clients direct way to contact the firm (simple click-and-call or pop-up email client with firm's address)
 
-- also (specifically requested by the owners) the new web page does not require any activity or maintanence from the owners
+- also (specifically requested by the owners) the new web page does not require any regular activity or maintanence from the owners
 
 #### From this web-page the user (potentional client):
 - learns the basic information about FORPEX and fields of its expertise,
 - gets a feeling, that the firm has an eye for design and looks stabile and reliable,
-- gets simple and direct way of contacting with the firm - phone, email
+- gets simple and direct way of contacting the firm - phone, email (or address with google map)
 - can get all the information about the firm in Czech (for locals) or in English (for foreign clients)
 
 ### Bugs and problems:
 - scrolling down the page on Safari does not work smoothly - page jumps to the navigated sections
-- appearence on real mobile phone looks different than phone-size vizualization on Chrome dev. tools. The background image on real phone has a different scale.
+- appearence on real mobile phone looks different than phone-size visualization on Chrome dev. tools. The background image on real phone has a different scale.
+I still plan to work on this issues in future (together with Features Left to Implement)
 
 ### Publishing
 
