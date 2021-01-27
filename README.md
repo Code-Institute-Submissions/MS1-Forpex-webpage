@@ -24,7 +24,9 @@ FORPEX is a Czech family firm established in 1993. FORPEX specialises in printin
 - get a feeling, that the firm has an eye for design and looks stabile and reliable,
 - get simple and direct way of contacting with the firm - phone, email
 
-Here are wireframes I created at the very beginning of the process (they slightly vary from the final result) https://bit.ly/3bPSAvZ
+Wireframes created at the very beginning of the process (slightly vary from the final result)
+
+![wireframes](./assets/images/wireframes_forpex.png)
 
 ## Features
 
@@ -49,8 +51,6 @@ Since FORPEX is print-oriented firm, I used this scroll-down effect with fixed b
 - from JavaScript I also expect to learn and implement how to add some interesting slight **movement/animation of images** while scrolling
 - for better orientation I also plan to **highlight active menu items yellow**- according to the section of scrolling page. I assume this could be also achieved by JavaScript, which I am not yet familiar with. 
 - on smaller screens, when using the **hamburger menu icon**, the menu stays open after choosing/clicking on menu item, and user has to click on the hamburger icon to close the menu - this I want to improve in the future, so after choosing menu item, the open list of menu items will close itself. Since the hamburger menu is created with help of JavaScript and at this time of my studying process I am not familiar with JavaScript yet, I plan to fix this later.
-
-
 
 ## Technologies Used
 
@@ -96,7 +96,6 @@ Lighthouse - dev. tools Google Chrome: ![lighthouse_report](./assets/images/ligh
 - instagram icon: when clicked opens a new browser window with firm's instagram page
 - all three icons float up and change color to darker while hovered over
 - all of them stay the whole time at the right bottom of the screen for an easy navigation
-
 - the Czech page was tested and works exactly the same way as the English index.html
 
 ### Compatibility Testing
@@ -114,7 +113,6 @@ Lighthouse - dev. tools Google Chrome: ![lighthouse_report](./assets/images/ligh
 - display, that the firm exists, business still runs
 - prove, that they operate on certain level of design qualities 
 - give to their clients direct way to contact the firm (simple click-and-call or pop-up email client with firm's address)
-
 - also (specifically requested by the owners) the new web page does not require any regular activity or maintanence from the owners
 
 #### From this web-page the user (potentional client):
@@ -133,7 +131,7 @@ I still plan to work on this issues in future (together with Features Left to Im
 This website was published using GitHub Pages. The procedure is outlined below.
 
 - Go to the GitHub website and log in.
-- On the left-hand side, you'll see all your repositories, select the appropriate one. (Repository used for this project).
+- On the left-hand side, you'll see all your repositories, select the appropriate one: **zemanjirka/MS1-Forpex-webpage**.
 - Under the name of your chosen Repository you will see a ribbon of selections, click on 'Settings' located on the right hand side.
 - Scroll down till you see 'GitHub Pages' heading.
 - Under the 'Source' click on the dropdown and select 'master branch'
@@ -145,7 +143,7 @@ This website was published using GitHub Pages. The procedure is outlined below.
 If you wish to contribute to this website you can Fork it without affecting the main branch by following the procedure outlined below.
 
 - Go to the GitHub website and log in.
-- Locate the Repository used for this project.
+- Locate the Repository used for this project: **zemanjirka/MS1-Forpex-webpage**
 - On the right-hand side of the Repository name, you'll see the 'Fork' button. It's located next to the 'Star' and 'Watch' buttons.
 - This will create a copy in your personal repository.
 - Once you're finished making changes you can locate the 'New Pull Request' button just above the file listing in the original repository.
@@ -167,13 +165,13 @@ If you wish to clone or download this repository to your local device you can fo
 
 ### Content
 
-- all the texts were created collaboration between me and the owners family
+- All the texts were created by collaboration between me and the owners family.
 
 ### Media
-- The photos used in this site were obtained from https://depositphotos.com/ and the firm owns full usage rights for all used images
+- The photos used in this site were obtained from https://depositphotos.com/ and the firm owns full usage rights for all used images.
 
-- the Czech and English icons (language switch buttons) made by Freepik from https://flaticon.com/  (required attribution at the very bottom of the page)
+- The Czech and English icons (language switch buttons) made by Freepik from https://flaticon.com/  (required attribution at the very bottom of the page).
 
 ### Acknowledgements
 
-- part of the code uses JavaScript - the Dropdown Menu - based on w3schools.com tutorial https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+- A part of the code uses JavaScript - the Dropdown Menu - based on w3schools.com tutorial https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
