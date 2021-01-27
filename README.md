@@ -1,6 +1,8 @@
 # MS1 - FORPEX webpage
 
-New webpage for existing Czech family firm FORPEX.
+### New webpage for existing Czech family firm FORPEX
+
+[View the live project here](https://zemanjirka.github.io/MS1-Forpex-webpage/)
 
 ![am_I_responsive_design](./assets/images/responsive_design.png)
  
@@ -29,30 +31,30 @@ Here are wireframes I created at the very beginning of the process (they slightl
 - Scroll-down page: the whole page is one scroll-down page with sereval sections (listed below). The project has also second page - which is just the translation in Czech language since FORPEX is a Czech firm and its clients are often Czechs. 
 Since FORPEX is print-oriented firm, I used this scroll-down effect with fixed background picture and several empty bars (holes in the scrolling layer) between each section to create remotely effect of a printing head scrolling over a paper. The empty bars are reduced in the mobile-size version of the page. 
 
-Sections:
-- Header - simple navigation bar with the logo and language options
-- Home page - simple headline on attractive background 
-- About us - simple description of the services FORPEX offers with yellow bar underlining FOPREX's expertise
-- Printing solutions - simple description of 3 main printing areas FORPEX provides
-- Rerefences - logos of main clients (mainly known Czech banks and state offices) and again yellow bar with numbers 
-- Contact - simple contact page with the contact info and embedded google-map
-- Footer - simple 3 yellow icons (phone, email and instagram), not effected by scrolling - stay all time on the same place of the page - right down corner of the screen. With a hover effect. 
-- Credits - very small section at the very bottom of the page - attribution for the flag-icons-designer 
-
-- favicon - logo of the firm
+### Sections:
+- **Header** - simple navigation bar with the logo and language options
+- **Home page** - simple headline on attractive background 
+- **About us** - simple description of the services FORPEX offers with yellow bar underlining FOPREX's expertise
+- **Printing solutions** - simple description of 3 main printing areas FORPEX provides
+- **Rerefences** - logos of main clients (mainly known Czech banks and state offices) and again yellow bar with numbers 
+- **Contact** - simple contact page with the contact info and embedded google-map
+- **Footer** - simple 3 yellow icons (phone, email and instagram), not effected by scrolling - stay all time on the same place of the page - right down corner of the screen. With a hover effect. 
+- **Credits** - very small section at the very bottom of the page - attribution for the flag-icons-designer 
+- and **favicon** - logo of the firm
 
 ![responsive_other_page](./assets/images/responsive_other_pages.png)
 
 ### Features Left to Implement
-- according to my quick research, Javascript offers smoother and visually more atractive movement while scrolling - since I am not able to use Javascript yet, I could not implement it already. But I am ready to make the scrolling smoother in the future.
-- from Javascript I also expect to learn and implement how to give some interesting slight movement/animation to the images while scrolling
-- for better orientation I also plan to highlight active menu items yellow - according to the section of scrolling page. I assume this could be also achieved by Javascript, which I am not yet familiar with. 
+- according to my quick research, JavaScript offers smoother and visually **more atractive movement while scrolling** - since I am not able to use Javascript yet, I could not implement it already. But I am ready to make the scrolling smoother in the future.
+- from JavaScript I also expect to learn and implement how to add some interesting slight **movement/animation of images** while scrolling
+- for better orientation I also plan to **highlight active menu items yellow**- according to the section of scrolling page. I assume this could be also achieved by JavaScript, which I am not yet familiar with. 
+- on smaller screens, when using the **hamburger menu icon**, the menu stays open after choosing/clicking on menu item, and user has to click on the hamburger icon to close the menu - this I want to improve in the future, so after choosing menu item, the open list of menu items will close itself. Since the hamburger menu is created with help of JavaScript and at this time of my studying process I am not familiar with JavaScript yet, I plan to fix this later.
 
 
 
 ## Technologies Used
 
-The whole page was built with HTML, CSS and Javascript (hamburger menu icon)
+The whole page was built with HTML, CSS and JavaScript (hamburger menu icon)
 
 ### Other sources:
 - [Bootstrap] (v5.0x) (https://getbootstrap.com/) For some particular details (grid, list-inline etc.)
@@ -68,11 +70,13 @@ The whole page was built with HTML, CSS and Javascript (hamburger menu icon)
 
 ## Testing 
 
-https://validator.w3.org/nu/ - Document checking completed. No errors or warnings to show.
+https://validator.w3.org/nu/ ![w3_report](./assets/images/nu_html_checker.png)
 
-http://www.css-validator.org/ -  Congratulations! No Error Found.
 
-lighthouse - dev. tools google chrome: ![lighthouse_report](./assets/images/lighhouse_report.png)
+http://www.css-validator.org/ ![validator_report](./assets/images/w3c_css_validator.png)
+
+
+Lighthouse - dev. tools Google Chrome: ![lighthouse_report](./assets/images/lighhouse_report.png)
 
 ### Manually tested all the features:
 
@@ -151,7 +155,7 @@ If you wish to contribute to this website you can Fork it without affecting the 
 If you wish to clone or download this repository to your local device you can follow the procedure outlined below.
 
 - Go to the GitHub website and log in.
-- Locate the Repository used for this project.
+- Locate the Repository used for this project: **zemanjirka/MS1-Forpex-webpage**
 - Under the Repository name locate 'Clone or Download' button in green.
 - To clone the repository using HTTPS click the link under "Clone with HTTPS".
 - Open your Terminal and go to a directory where you want the cloned directory to be copied in.
@@ -163,7 +167,7 @@ If you wish to clone or download this repository to your local device you can fo
 
 ### Content
 
-- all the texts were created by me collaboration between me and the owners family
+- all the texts were created collaboration between me and the owners family
 
 ### Media
 - The photos used in this site were obtained from https://depositphotos.com/ and the firm owns full usage rights for all used images
@@ -172,4 +176,4 @@ If you wish to clone or download this repository to your local device you can fo
 
 ### Acknowledgements
 
-- part of the code uses Javascript - the Dropdown Menu - based on w3schools.com tutorial https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+- part of the code uses JavaScript - the Dropdown Menu - based on w3schools.com tutorial https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
